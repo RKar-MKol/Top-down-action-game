@@ -2,6 +2,9 @@
 #include <math.h>
 #include <vector>
 
+
+using namespace std;
+
 //STAŁE DEFINIUNIUJĄCE WYMIARY JEDNEGO PUNKTU KOLIZJI
 const float Block_x = 10;
 const float Block_y = 10;
@@ -65,7 +68,7 @@ class Object
 
 	//POLA DOTYCZĄCE KOLIZJI
 	CollisionType Collision;
-	std::vector<CollisionBlock*> Blocks;
+	vector<CollisionBlock*> Blocks;
 	sf::Vector2f CollisionRectSize;
 	sf::Vector2f CollisionCircleCenter;
 	float CollisionCircleRadius;
