@@ -2,89 +2,51 @@
 #include <math.h>
 #include <vector>
 
-
-using namespace std;
-
-//STAŁE DEFINIUNIUJĄCE WYMIARY JEDNEGO PUNKTU KOLIZJI
-const float Block_x = 10;
+const float Block_x = 10; //JESLI Block_x != Block_y nalezy zmienic kolizje circlepoint
 const float Block_y = 10;
 
 class Object;
 
 
-// Kolizja oparta na blockach kolizji (prostokąty o tej samej wielkości).
-// Jedna grupa prostokątów opisuje kolizję jednego obiektu).
-struct CollisionBlock
-{
-	sf::Vector2f position;
-	sf::Vector2f size;
-	CollisionBlock()
-	{
-		size = sf::Vector2f(Block_x,Block_y);
-	}
-	CollisionBlock(sf::Vector2f pos)
-	{
-		position = pos;
-		size = sf::Vector2f(Block_x,Block_y);
-	}
-};
-/*----------------------------------------------------
-|	Problemy z kolizją:
-|	----------------------------------------------
-|	Niesprecyzowany model kolizji Circle i Arc
-|	Wymyśliłem 3 możliwe modele kolizji Circle
-|	i 2 możliwe modele kolizji Arc.
-|
-|	Bez sprecyzowania jakiego modelu się użyje,
-|	nie ma sensu implementować kolizji, chyba że
-|	zaimplementuję kolizję każdego prostokąta
-|	jednego obiektu z każdym prostokątem
-|	drugiego obiektu, co jest mało wydajne.
-|	W innym przypadku będzie trzeba pisać
-|	funkcję kolizji od nowa.
-|	--------------------------------------------------
-*/
+//MATEMATYKA
+float Vector2fDistance(sf::Vector2f Point1, sf::Vector2f Point2)
+{return sqrt( (Point1.x-Point2.x)*(Point1.x-Point2.x)+(Point1.y-Point2.y)*(Point1.y-Point2.y) );}
+
 //FUNKCJE DO KOLIZJI
-bool CollisionPointPoint(Object o1, Object o2); //OK
-bool CollisionPointCircle(Object o1, Object o2); //Raczej OK
-bool CollisionPointRect(Object o1, Object o2);//OK
-bool CollisionPointArc(Object o1, Object o2); //NIE SKONCZONE
-bool CollisionCircleCircle(Object o1, Object o2);//NIE SKONCZONE
-bool CollisionCircleRect(Object o1, Object o2);//NIE SKONCZONE
-bool CollisionCircleArc(Object o1, Object o2);//NIE SKONCZONE
-bool CollisionRectRect(Object o1, Object o2);//OK
-bool CollisionRectArc(Object o1, Object o2);//NIE SKONCZONE
-bool CollisionArcArc(Object o1, Object o2);//NIE SKONCZONE
+bool CollisionPointPoint(Object o1, Object o2);
+bool CollisionPointCircle(Object o1, Object o2);
+bool CollisionPointRect(Object o1, Object o2);
+bool CollisionCircleCircle(Object o1, Object o2);
+bool CollisionCircleRect(Object o1, Object o2);
+bool CollisionRectRect(Object o1, Object o2);
 
-
-enum CollisionType
+enum CollisionShape
 	{
-		Point, Circle, Rectangle, Arc, END
+		Point, Circle, Rectangle, END
 	};
 class Object
 {
 	//POLA KLASY
 	sf::Vector2f Position;
-
-	//POLA DOTYCZĄCE KOLIZJI
-	CollisionType Collision;
-	vector<CollisionBlock*> Blocks;
-	sf::Vector2f CollisionRectSize;
-	sf::Vector2f CollisionCircleCenter;
-	float CollisionCircleRadius;
-	float CollisionArcRadius;
-	float CollisionArcAngle;
+	CollisionShape Collision;
+	sf::Vector2f RectSize;
+	sf::Vector2f CircleCenter;
+	float CircleRadius;
 
 	//METODY
-	bool CollisionCheckWithAnotherObject(Object& Objekt); //JEŚLI 1 TO JEST KOLIZJA
-
+	bool CollisionCheckWithAnotherObject(Object& Obj); //JEŚLI 1 TO JEST KOLIZJA
+    bool CheckForCollisions(std::vector<Object> Objs); //Sprawdza czy jest kolizja z grupa obiektow
+                                                  //Jesli nie bylo z zadnym zwraca false
+                                                  //Jesli z jakims byla zwraca true
+                                                  //Z kazdym obiektem z ktorym jest kolizja wywoluje
+                                                  //reakcje (np. strzaly wywoluja otrzymanie obrazen itp.)
+                                                  //reakcja mogłaby być klasą
 public:
 
 	//KONSTRUKTORY + DESTRUKTOR
 	Object(sf::Vector2f pos); //konstruktor punktu
 	Object(sf::Vector2f pos, sf::Vector2f size); //konstruktor prostokata
 	Object(sf::Vector2f pos, float radius); //konstruktor okregu
-	Object(sf::Vector2f pos, float radius, float angle); //konstruktor łuku
 
 	~Object(); //destruktor NIE WIEM CZY WYSTARCZY MOJ SPOSOB CZYSZCZENIA PAMIECI
 
@@ -93,12 +55,7 @@ public:
 	friend bool CollisionPointPoint(Object o1, Object o2);
 	friend bool CollisionPointCircle(Object o1, Object o2);
 	friend bool CollisionPointRect(Object o1, Object o2);
-	friend bool CollisionPointArc(Object o1, Object o2);
 	friend bool CollisionCircleCircle(Object o1, Object o2);
 	friend bool CollisionCircleRect(Object o1, Object o2);
-	friend bool CollisionCircleArc(Object o1, Object o2);
 	friend bool CollisionRectRect(Object o1, Object o2);
-	friend bool CollisionRectArc(Object o1, Object o2);
-	friend bool CollisionArcArc(Object o1, Object o2);
-
 };
