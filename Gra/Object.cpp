@@ -1,4 +1,9 @@
 #include "Object.h"
+
+
+
+int Object::IDiterator = 1;
+bool operator==(Object& o1, Object& o2) {return o1.ID == o2.ID;}
 //////////////////////////////////////////////////////
 //													//
 //													//
@@ -9,7 +14,7 @@
 //													//
 //////////////////////////////////////////////////////
 
-bool CollisionPointPoint(Object o1, Object o2)
+bool CollisionPointPoint(Object& o1, Object& o2)
 {
 	if(o1.Position.x + Block_x < o2.Position.x) return 0;
 	if(o1.Position.x  > o2.Position.x + Block_x) return 0;
@@ -17,7 +22,7 @@ bool CollisionPointPoint(Object o1, Object o2)
 	if(o1.Position.y  > o2.Position.y + Block_y) return 0;
 	return 1;
 }
-bool CollisionPointCircle(Object o1, Object o2)
+bool CollisionPointCircle(Object& o1, Object& o2)
 {
     //Kolizja nie jest perfect, jest przyblizona
     float MAXdist = o2.CircleRadius + sqrt(Block_x)/2;
@@ -26,7 +31,7 @@ bool CollisionPointCircle(Object o1, Object o2)
     if(Vector2fDistance(o1.Position+sf::Vector2f(Block_x/2,Block_x/2),o2.CircleCenter) > Avg) return 0;
     return 1;
 }
-bool CollisionPointRect(Object o1, Object o2)
+bool CollisionPointRect(Object& o1, Object& o2)
 {
 	if(o1.Position.x + Block_x < o2.Position.x) return 0;
 	if(o1.Position.x  > o2.Position.x + o2.RectSize.x) return 0;
@@ -35,12 +40,12 @@ bool CollisionPointRect(Object o1, Object o2)
 
 	return 1;
 }
-bool CollisionCircleCircle(Object o1, Object o2)
+bool CollisionCircleCircle(Object& o1, Object& o2)
 {
     if(o1.CircleRadius + o2.CircleRadius < Vector2fDistance(o1.CircleCenter,o2.CircleCenter)) return false;
     return true;
 }
-bool CollisionCircleRect(Object o1, Object o2)
+bool CollisionCircleRect(Object& o1, Object& o2)
 {
 	if(o2.Position.y + o2.RectSize.y < o1.Position.y) return 0;
 	if(o2.Position.y > o1.Position.y + 2*o1.CircleRadius) return 0;
@@ -51,36 +56,42 @@ bool CollisionCircleRect(Object o1, Object o2)
 	if(o1.CircleCenter.y < o2.RectSize.y + o2.Position.y && o1.CircleCenter.y > o2.Position.y) return 1;
 
 	sf::Vector2f TMPPoint = o2.Position;
-	if(Vector2fDistance(TMPPoint,o1.CircleCenter) > o1.CircleRadius) return 0;
-	TMPPoint = o2.Position + sf::Vector2f(0,o2.RectSize.y);
-	if(Vector2fDistance(TMPPoint,o1.CircleCenter) > o1.CircleRadius) return 0;
-	TMPPoint = o2.Position + sf::Vector2f(o2.RectSize.x,0);
-	if(Vector2fDistance(TMPPoint,o1.CircleCenter) > o1.CircleRadius) return 0;
-	TMPPoint = o2.Position + o2.RectSize;
-	if(Vector2fDistance(TMPPoint,o1.CircleCenter) > o1.CircleRadius) return 0;
+	sf::Vector2f TMPPoint2 = o2.Position + sf::Vector2f(0,o2.RectSize.y);
+	sf::Vector2f TMPPoint3 = o2.Position + sf::Vector2f(o2.RectSize.x,0);
+	sf::Vector2f TMPPoint4 = o2.Position + o2.RectSize;
+
+	if(
+        (Vector2fDistance(TMPPoint,o1.CircleCenter) > o1.CircleRadius)
+     && (Vector2fDistance(TMPPoint2,o1.CircleCenter) > o1.CircleRadius)
+     && (Vector2fDistance(TMPPoint3,o1.CircleCenter) > o1.CircleRadius)
+     && (Vector2fDistance(TMPPoint4,o1.CircleCenter) > o1.CircleRadius)
+      )return 0;
+
+
+
 
 	return 1;
 }
-bool CollisionRectRect(Object o1, Object o2) // RACZEJ OK
+bool CollisionRectRect(Object& o1, Object& o2) // RACZEJ OK
 {
 	if(o1.Position.x + o1.RectSize.x < o2.Position.x) return 0;
 	if(o1.Position.x  > o2.Position.x + o2.RectSize.x) return 0;
 	if(o1.Position.y + o1.RectSize.y < o2.Position.y) return 0;
 	if(o1.Position.y  > o2.Position.y + o2.RectSize.y) return 0;
-
 	return 1;
 }
-bool Object::CheckForCollisions(std::vector<Object> Objs)
+bool Object::CheckForCollisions(vector<Object*> Objs)
 {
     bool ThereIsCollision = false;
     for(int i=0;i<Objs.size();i++)
     {
-        if(CollisionCheckWithAnotherObject(Objs[i]))
+        if(CollisionCheckWithAnotherObject(*Objs[i]) && this!= Objs[i])
            {
                //REAKCJA NA KOLIZJE
 
 
                ThereIsCollision = true;
+               cout<<"\nCollision with: "<<Objs[i]->ID;
            }
     }
 
@@ -140,17 +151,20 @@ bool Object::CollisionCheckWithAnotherObject(Object& Obj) //JEŚLI 1 TO JEST KOL
 
 Object::Object(sf::Vector2f pos) //konstruktor punktu
 {
+    ID = IDiterator++;
 	Collision = Point;
 	Position = pos;
 }
 Object::Object(sf::Vector2f pos, sf::Vector2f size) //konstruktor prostokata
 {
+    ID = IDiterator++;
 	Collision = Rectangle;
 	Position = pos;
 	RectSize = size;
 }
 Object::Object(sf::Vector2f pos, float radius) //konstruktor okregu NIE SKONCZONY
 {
+    ID = IDiterator++;
 	Collision = Circle;
 	Position = pos;
 	CircleRadius = radius;
@@ -158,7 +172,27 @@ Object::Object(sf::Vector2f pos, float radius) //konstruktor okregu NIE SKONCZON
 	// trzeba bedzie obliczyc circle center
 }
 
-Object::~Object()//destruktor
+/*Object::~Object()//destruktor NIE WIEM CZY POTREBNY
 {
 
-}
+}*/
+//float Vector2fDistance(sf::Vector2f Point1, sf::Vector2f Point2)
+//{return sqrt( (Point1.x-Point2.x)*(Point1.x-Point2.x)+(Point1.y-Point2.y)*(Point1.y-Point2.y) );}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
