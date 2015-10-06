@@ -1,6 +1,7 @@
 //#include <SFML\Graphics.hpp>
 //#include <cmath>
 #include "Object.h"
+#include "Map.h"
 
 int main()
 {
@@ -46,7 +47,12 @@ int main()
     if(Prostokat1->CheckForCollisions(Objects)) std::cout<<"\napapapa";
     //if(Prostokat2->CheckForCollisions(Objects)) std::cout<<"\napapapa";
 
+    /** TESTOWANIE RAFAL **/
+    Map*testowa_mapa = new Map;
+    testowa_mapa->LoadMapFromFile("test.csv");
+    testowa_mapa->DisplayMapOfCollisions();
 
+    /** TESTOWANIE RAFAL **/
 
 
     /*sf::RenderWindow okno( sf::VideoMode( 320, 240 ), "Kurs SFML 2.0 - http://cpp0x.pl" );

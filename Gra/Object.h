@@ -31,11 +31,11 @@ enum CollisionShape
 	{
 		Point, Circle, Rectangle, END
 	};
-class Object
+class Object : public sf::Drawable
 {
     //ID Obiektow
 public:  static int IDiterator;
-         static vector<Object*> Objects;
+         static vector<Object*> AllObjects;
 private: int ID;
 	//POLA KLASY
 	sf::Vector2f Position;
@@ -47,7 +47,7 @@ private: int ID;
 	//METODY
 	bool CollisionCheckWithAnotherObject(Object& Obj); //JEŚLI 1 TO JEST KOLIZJA
 public:
-    bool CheckForCollisions(vector<Object*> Objs); //Sprawdza czy jest kolizja z grupa obiektow
+    bool CheckForCollisions(vector<Object*> Objs = AllObjects); //Sprawdza czy jest kolizja z grupa obiektow
                                                   //Jesli nie bylo z zadnym zwraca false
                                                   //Jesli z jakims byla zwraca true
                                                   //Z kazdym obiektem z ktorym jest kolizja wywoluje

@@ -3,7 +3,7 @@
 
 
 int Object::IDiterator = 1;
-vector<Object*> Object::Objects;
+vector<Object*> Object::AllObjects;
 bool operator==(Object& o1, Object& o2) {return o1.ID == o2.ID;}
 //////////////////////////////////////////////////////
 //													//
@@ -152,13 +152,14 @@ bool Object::CollisionCheckWithAnotherObject(Object& Obj) //JEŚLI 1 TO JEST KOL
 void Object::draw(sf::RenderTarget& target,sf::RenderStates states) const
 {
     // DO UZUPELNIENIA
+    //target.draw("cos tam");
 }
 Object::Object(sf::Vector2f pos) //konstruktor punktu
 {
     ID = IDiterator++;
 	Collision = Point;
 	Position = pos;
-	Objects.push_back(this);
+	AllObjects.push_back(this);
 }
 Object::Object(sf::Vector2f pos, sf::Vector2f size) //konstruktor prostokata
 {
@@ -166,7 +167,7 @@ Object::Object(sf::Vector2f pos, sf::Vector2f size) //konstruktor prostokata
 	Collision = Rectangle;
 	Position = pos;
 	RectSize = size;
-	Objects.push_back(this);
+	AllObjects.push_back(this);
 }
 Object::Object(sf::Vector2f pos, float radius) //konstruktor okregu NIE SKONCZONY
 {
@@ -175,7 +176,7 @@ Object::Object(sf::Vector2f pos, float radius) //konstruktor okregu NIE SKONCZON
 	Position = pos;
 	CircleRadius = radius;
 	CircleCenter = pos + sf::Vector2f(radius,radius);
-	Objects.push_back(this);
+	AllObjects.push_back(this);
 }
 
 /*Object::~Object()//destruktor NIE WIEM CZY POTREBNY
