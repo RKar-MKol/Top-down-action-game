@@ -35,6 +35,7 @@ class Object
 {
     //ID Obiektow
 public:  static int IDiterator;
+         static vector<Object*> Objects;
 private: int ID;
 	//POLA KLASY
 	sf::Vector2f Position;
