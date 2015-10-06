@@ -3,6 +3,7 @@
 
 
 int Object::IDiterator = 1;
+vector<Object*> Object::Objects;
 bool operator==(Object& o1, Object& o2) {return o1.ID == o2.ID;}
 //////////////////////////////////////////////////////
 //													//
@@ -154,6 +155,7 @@ Object::Object(sf::Vector2f pos) //konstruktor punktu
     ID = IDiterator++;
 	Collision = Point;
 	Position = pos;
+	Objects.push_back(this);
 }
 Object::Object(sf::Vector2f pos, sf::Vector2f size) //konstruktor prostokata
 {
@@ -161,6 +163,7 @@ Object::Object(sf::Vector2f pos, sf::Vector2f size) //konstruktor prostokata
 	Collision = Rectangle;
 	Position = pos;
 	RectSize = size;
+	Objects.push_back(this);
 }
 Object::Object(sf::Vector2f pos, float radius) //konstruktor okregu NIE SKONCZONY
 {
@@ -169,7 +172,7 @@ Object::Object(sf::Vector2f pos, float radius) //konstruktor okregu NIE SKONCZON
 	Position = pos;
 	CircleRadius = radius;
 	CircleCenter = pos + sf::Vector2f(radius,radius);
-	// trzeba bedzie obliczyc circle center
+	Objects.push_back(this);
 }
 
 /*Object::~Object()//destruktor NIE WIEM CZY POTREBNY
