@@ -59,6 +59,9 @@ public:
     void ChangePosition(sf::Vector2f Position) {this->Position = Position;}
 
 
+    //DRAW
+    virtual void draw(sf::RenderTarget& target,sf::RenderStates states=sf::RenderStates::Default) const;
+
 	//KONSTRUKTORY + DESTRUKTOR
 	Object(sf::Vector2f pos); //konstruktor punktu
 	Object(sf::Vector2f pos, sf::Vector2f size); //konstruktor prostokata

@@ -149,7 +149,10 @@ bool Object::CollisionCheckWithAnotherObject(Object& Obj) //JEŚLI 1 TO JEST KOL
 //													//
 //													//
 //////////////////////////////////////////////////////
-
+void Object::draw(sf::RenderTarget& target,sf::RenderStates states) const
+{
+    // DO UZUPELNIENIA
+}
 Object::Object(sf::Vector2f pos) //konstruktor punktu
 {
     ID = IDiterator++;
