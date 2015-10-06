@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1444158448 source:c:\users\michal\desktop\top-down-action-game\gra\main.cpp
+1444162596 source:c:\users\michal\desktop\top-down-action-game\gra\main.cpp
 	"Object.h"
+	"Map.h"
 
 1442000847 c:\users\michal\desktop\top-down-action-game\sfml-2.3\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -790,4 +791,21 @@
 	<iostream>
 	<fstream>
 	<vector>
+
+1444162596 c:\users\michal\desktop\top-down-action-game\gra\include\object.h
+	<SFML\Graphics.hpp>
+	<math.h>
+	<vector>
+	<iostream>
+
+1444162596 c:\users\michal\desktop\top-down-action-game\gra\include\map.h
+	<SFML/Graphics.hpp>
+	<string>
+	<sstream>
+	<iostream>
+	<fstream>
+	<vector>
+
+1444162596 source:c:\users\michal\desktop\top-down-action-game\gra\src\map.cpp
+	"Map.h"
 
