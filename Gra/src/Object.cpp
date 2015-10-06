@@ -153,6 +153,7 @@ void Object::draw(sf::RenderTarget& target,sf::RenderStates states) const
 {
     // DO UZUPELNIENIA
     //target.draw("cos tam");
+    target.draw(rect,states);
 }
 Object::Object(sf::Vector2f pos) //konstruktor punktu
 {
@@ -160,6 +161,9 @@ Object::Object(sf::Vector2f pos) //konstruktor punktu
 	Collision = Point;
 	Position = pos;
 	AllObjects.push_back(this);
+	rect.setPosition(pos);
+	rect.setSize(sf::Vector2f(Block_x,Block_y));
+	rect.setFillColor(sf::Color::Red);
 }
 Object::Object(sf::Vector2f pos, sf::Vector2f size) //konstruktor prostokata
 {
@@ -168,6 +172,9 @@ Object::Object(sf::Vector2f pos, sf::Vector2f size) //konstruktor prostokata
 	Position = pos;
 	RectSize = size;
 	AllObjects.push_back(this);
+	rect.setPosition(pos);
+	rect.setSize(size);
+	rect.setFillColor(sf::Color::Blue);
 }
 Object::Object(sf::Vector2f pos, float radius) //konstruktor okregu NIE SKONCZONY
 {
@@ -177,6 +184,9 @@ Object::Object(sf::Vector2f pos, float radius) //konstruktor okregu NIE SKONCZON
 	CircleRadius = radius;
 	CircleCenter = pos + sf::Vector2f(radius,radius);
 	AllObjects.push_back(this);
+	rect.setPosition(pos);
+	rect.setSize(sf::Vector2f(radius*2,radius*2));
+	rect.setFillColor(sf::Color::Green);
 }
 
 /*Object::~Object()//destruktor NIE WIEM CZY POTREBNY

@@ -43,6 +43,8 @@ private: int ID;
 	sf::Vector2f RectSize;
 	sf::Vector2f CircleCenter;
 	float CircleRadius;
+	sf::RectangleShape rect;
+
 
 	//METODY
 	bool CollisionCheckWithAnotherObject(Object& Obj); //JEŚLI 1 TO JEST KOLIZJA

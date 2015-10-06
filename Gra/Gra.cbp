@@ -53,11 +53,11 @@
 			<Add option="-static-libgcc" />
 			<Add directory="../SFML-2.3/lib" />
 		</Linker>
-		<Unit filename="Object.cpp" />
-		<Unit filename="Object.h" />
 		<Unit filename="include/Map.h" />
+		<Unit filename="include/Object.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Object.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
