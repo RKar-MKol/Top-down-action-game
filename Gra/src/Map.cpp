@@ -44,7 +44,6 @@ void Map::LoadMapFromFile(string path)
     }
 
 
-
     // TRANSPONUJEMY
     for(int i = 0; i<temporary_vector2d[0].size(); i++)
     {
@@ -55,6 +54,32 @@ void Map::LoadMapFromFile(string path)
         MapOfCollisions.push_back(temp);
     }
 
+}
+void Map::CreateMapFromArray()
+{
+    for(unsigned int i = 0;i<MapOfCollisions[i].size();i++)
+    {
+        int Poczatek = -1;
+
+        for(unsigned int j = 0; j< MapOfCollisions.size(); j++)
+        {
+            if(MapOfCollisions[j][i] != -1 && Poczatek == -1)
+                Poczatek = j;
+            if(MapOfCollisions[j][i] == -1 && Poczatek != -1)
+            {
+                ObjectsOnMap.push_back(new Object(sf::Vector2f(TileSize.x * Poczatek,TileSize.y * i),
+                                                  sf::Vector2f( (j- Poczatek) * TileSize.x,TileSize.y)));
+                Poczatek = -1;
+            }
+        }
+        if(Poczatek != -1)
+        {
+            ObjectsOnMap.push_back(new Object(sf::Vector2f(TileSize.x * Poczatek,TileSize.y * i),
+                                              sf::Vector2f( (MapOfCollisions.size()- Poczatek) * TileSize.x,TileSize.y)));
+            Poczatek = -1;
+        }
+
+    }
 }
 void Map::DisplayMapOfCollisions()
 {
@@ -69,10 +94,15 @@ void Map::DisplayMapOfCollisions()
 }
 Map::Map()
 {
-    //ctor
+
 }
 
 Map::~Map()
 {
     //dtor
+}
+void Map::draw(sf::RenderTarget& target,sf::RenderStates states) const
+{
+    for(unsigned int i = 0;i<ObjectsOnMap.size();i++)
+        target.draw(*ObjectsOnMap[i]);
 }
