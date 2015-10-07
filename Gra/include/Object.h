@@ -36,9 +36,10 @@ class Object : public sf::Drawable
     //ID Obiektow
 public:  static int IDiterator;
          static vector<Object*> AllObjects;
+         sf::Vector2f Position;
 private: int ID;
 	//POLA KLASY
-	sf::Vector2f Position;
+
 	CollisionShape Collision;
 	sf::Vector2f RectSize;
 	sf::Vector2f CircleCenter;

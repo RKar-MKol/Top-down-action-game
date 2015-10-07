@@ -19,6 +19,8 @@ private:
     vector < vector <int> > MapOfCollisions;
     vector <Object*> ObjectsOnMap;
 public:
+    sf::Vector2f MapSize; // wielkosc mapy
+
     void LoadMapFromFile(string PathToFile); // wczytuje liczby z .csv do MapOfCollisions
     void CreateMapFromArray(); // tworzy mape z MapOfCollisions
 
