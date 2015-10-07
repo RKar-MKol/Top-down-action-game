@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add library="..\SFML-2.3\lib\libsfml-audio-d.a" />
@@ -30,6 +31,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -51,9 +53,11 @@
 			<Add option="-static-libgcc" />
 			<Add directory="../SFML-2.3/lib" />
 		</Linker>
-		<Unit filename="Object.cpp" />
-		<Unit filename="Object.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/Object.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Object.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

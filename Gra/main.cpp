@@ -1,6 +1,7 @@
 //#include <SFML\Graphics.hpp>
 //#include <cmath>
 #include "Object.h"
+#include "Map.h"
 
 int main()
 {
@@ -10,10 +11,10 @@ int main()
     std::vector<Object*> Objects;
     Object* Prostokat1 = new Object(sf::Vector2f(50,50),sf::Vector2f(100,100));
     Objects.push_back(Prostokat1);
-    //Object* Prostokat2 = new Object(sf::Vector2f(50,201),sf::Vector2f(50,200));
-    //Objects.push_back(Prostokat2);
+    Object* Prostokat2 = new Object(sf::Vector2f(50,201),sf::Vector2f(50,200));
+    Objects.push_back(Prostokat2);
 
-    Object* Okrag = new Object(sf::Vector2f(10,5),25);
+    Object* Okrag = new Object(sf::Vector2f(50,50),25);
     Objects.push_back(Okrag);
 
 
@@ -43,13 +44,18 @@ int main()
     Object* Okrag12 = new Object(sf::Vector2f(100,50),25);
     Objects.push_back(Okrag12);*/
 
-    if(Prostokat1->CheckForCollisions(Objects)) std::cout<<"\napapapa";
+   // if(Prostokat1->CheckForCollisions(Objects)) std::cout<<"\napapapa";
     //if(Prostokat2->CheckForCollisions(Objects)) std::cout<<"\napapapa";
 
+    /** TESTOWANIE RAFAL **/
+    Map*testowa_mapa = new Map;
+    testowa_mapa->LoadMapFromFile("test.csv");
+    testowa_mapa->DisplayMapOfCollisions();
+
+    /** TESTOWANIE RAFAL **/
 
 
-
-    /*sf::RenderWindow okno( sf::VideoMode( 320, 240 ), "Kurs SFML 2.0 - http://cpp0x.pl" );
+    sf::RenderWindow okno( sf::VideoMode( 800, 800 ), "Kurs SFML 2.0 - http://cpp0x.pl" );
     sf::Clock stoper;
     while( okno.isOpen() )
     {
@@ -62,14 +68,11 @@ int main()
         } //while
         okno.clear();
 
-        sf::CircleShape ksztalt( std::sin( stoper.getElapsedTime().asSeconds() ) * okno.getSize().y / 8 + okno.getSize().y / 4 );
-        ksztalt.setOrigin( sf::Vector2f( ksztalt.getRadius(), ksztalt.getRadius() ) );
-        ksztalt.setPosition( okno.getSize().x / 2.0f, okno.getSize().y / 2.0f );
-        ksztalt.setFillColor( sf::Color::Yellow );
-        okno.draw( ksztalt );
+        for(int i=0;i<Objects.size();i++)
+            Objects[i]->draw(okno);
 
         okno.display();
-    } //while*/
+    } //while
     return 0;
 }
 
