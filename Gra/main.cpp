@@ -22,7 +22,7 @@ int main()
 
     /** TESTOWANIE RAFAL **/
     Map*testowa_mapa = new Map;
-    testowa_mapa->LoadMapFromFile("test.csv");
+    testowa_mapa->LoadMapFromFile("mapa50x50.csv");
     testowa_mapa->DisplayMapOfCollisions();
     testowa_mapa->CreateMapFromArray();
 
