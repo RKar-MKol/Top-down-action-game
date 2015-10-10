@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1444490394 source:c:\users\michal\desktop\top-down-action-game\gra\main.cpp
+1444491235 source:c:\users\michal\desktop\top-down-action-game\gra\main.cpp
 	"Object.h"
 	"Map.h"
 
@@ -793,7 +793,7 @@
 	<vector>
 	"Object.h"
 
-1444487672 c:\users\michal\desktop\top-down-action-game\gra\include\object.h
+1444494439 c:\users\michal\desktop\top-down-action-game\gra\include\object.h
 	<SFML\Graphics.hpp>
 	<math.h>
 	<vector>
@@ -811,7 +811,7 @@
 1444487672 source:c:\users\michal\desktop\top-down-action-game\gra\src\map.cpp
 	"Map.h"
 
-1444490977 source:c:\users\michal\desktop\top-down-action-game\gra\src\object.cpp
+1444494629 source:c:\users\michal\desktop\top-down-action-game\gra\src\object.cpp
 	"Object.h"
 
 1444429989 source:c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\src\object.cpp

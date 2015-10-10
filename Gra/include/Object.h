@@ -43,7 +43,6 @@ private: int ID;
 
 	CollisionShape Collision;
 	sf::Vector2f RectSize;
-	sf::Vector2f CircleCenter;
 	float CircleRadius;
 	sf::RectangleShape rect;
 
