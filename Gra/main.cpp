@@ -27,12 +27,12 @@ int main()
     sf::View Camera;
 
 
-    Object*postac = new Object(sf::Vector2f(50,50),30);
+    Object*postac = new Object(sf::Vector2f(400,100),30);
 
 
 
     Map*testowa_mapa = new Map;
-    testowa_mapa->LoadMapFromFile("test.csv");
+    testowa_mapa->LoadMapFromFile("mapa50x50.csv");
     testowa_mapa->DisplayMapOfCollisions();
     testowa_mapa->CreateMapFromArray();
 
@@ -50,20 +50,35 @@ int main()
         sf::Event event;
         while( GameWindow.pollEvent( event ) )
         {
-            if( event.type == sf::Event::Closed )
-                 GameWindow.close();
+            switch(event.type)
+            {
+            case sf::Event::Closed:
+                GameWindow.close();
+                break;
+            case sf::Event::KeyPressed:
+                if(event.key.code == sf::Keyboard::Up)
+                    postac->Move(UP);
+                if(event.key.code == sf::Keyboard::Down)
+                    postac->Move(DOWN);
+                if(event.key.code == sf::Keyboard::Left)
+                    postac->Move(LEFT);
+                if(event.key.code == sf::Keyboard::Right)
+                    postac->Move(RIGHT);
+                break;
+
+            }
+
 
         }
         GameWindow.clear();
 
-
+        CameraUpdate(postac,testowa_mapa);
         GameWindow.draw(*testowa_mapa);
         GameWindow.draw(*postac);
 
         GameWindow.display();
     }
     /** %%%%%%%%%%%%%%%%% GAME LOOP  %%%%%%%%%%%%%%%%% **/
-
 }
 void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa)
 {

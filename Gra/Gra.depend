@@ -390,7 +390,7 @@
 	<vector>
 	<iostream>
 
-1444251636 source:c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\main.cpp
+1444429890 source:c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\main.cpp
 	"Object.h"
 	"Map.h"
 
@@ -781,10 +781,10 @@
 	<vector>
 	<iostream>
 
-1444251678 source:c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\src\map.cpp
+1444428716 source:c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\src\map.cpp
 	"Map.h"
 
-1444251342 c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\include\map.h
+1444428716 c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\include\map.h
 	<SFML/Graphics.hpp>
 	<string>
 	<sstream>
@@ -813,10 +813,10 @@
 1444166505 source:c:\users\michal\desktop\top-down-action-game\gra\src\object.cpp
 	"Object.h"
 
-1444243433 source:c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\src\object.cpp
+1444429989 source:c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\src\object.cpp
 	"Object.h"
 
-1444252217 c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\include\object.h
+1444428904 c:\users\szprota\documents\github\top down action game\top-down-action-game\gra\include\object.h
 	<SFML\Graphics.hpp>
 	<math.h>
 	<vector>

@@ -83,7 +83,7 @@ bool CollisionRectRect(Object& o1, Object& o2) // RACZEJ OK
 }
 bool Object::CheckForCollisions(vector<Object*> Objs)
 {
-    bool ThereIsCollision = false;
+
     for(int i=0;i<Objs.size();i++)
     {
         if(CollisionCheckWithAnotherObject(*Objs[i]) && this!= Objs[i])
@@ -91,13 +91,13 @@ bool Object::CheckForCollisions(vector<Object*> Objs)
                //REAKCJA NA KOLIZJE
 
 
-               ThereIsCollision = true;
+
                cout<<"\nCollision with: "<<Objs[i]->ID;
+               return true;
            }
     }
 
-    if(ThereIsCollision) return 1;
-    return 0;
+    return false;
 }
 bool Object::CollisionCheckWithAnotherObject(Object& Obj) //JEŚLI 1 TO JEST KOLIZJA
 	{
@@ -149,6 +149,31 @@ bool Object::CollisionCheckWithAnotherObject(Object& Obj) //JEŚLI 1 TO JEST KOL
 //													//
 //													//
 //////////////////////////////////////////////////////
+void Object::Move(Direction dir)
+{
+    float MovementSpeed = 5.0f; // na razie tutaj ustawiony Movement speed
+
+    float startingX = Position.x;
+    float startingY = Position.y;
+    switch(dir)
+    {
+    case LEFT:
+        Position.x-=MovementSpeed;
+        break;
+    case RIGHT:
+        Position.x+=MovementSpeed;
+        break;
+    case DOWN:
+        Position.y+=MovementSpeed;
+        break;
+    case UP:
+        Position.y-=MovementSpeed;
+        break;
+    }
+    if(CheckForCollisions())
+        Position = sf::Vector2f(startingX,startingY);
+    rect.setPosition(Position);
+}
 void Object::draw(sf::RenderTarget& target,sf::RenderStates states) const
 {
     // DO UZUPELNIENIA

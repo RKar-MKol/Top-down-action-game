@@ -31,6 +31,7 @@ enum CollisionShape
 	{
 		Point, Circle, Rectangle, END
 	};
+enum Direction{LEFT,RIGHT,DOWN,UP};
 class Object : public sf::Drawable
 {
     //ID Obiektow
@@ -58,9 +59,9 @@ public:
                                                   //reakcja mogłaby być klasą
 
     //Potem to bedzie protected ale na razie testy
-    void Move(sf::Vector2f Offset) {Position+=Offset;}
-    void ChangePosition(sf::Vector2f Position) {this->Position = Position;}
-
+    //void Move(sf::Vector2f Offset) {Position+=Offset;}
+   // void ChangePosition(sf::Vector2f Position) {this->Position = Position;}
+    virtual void Move(Direction dir);
 
     //DRAW
     virtual void draw(sf::RenderTarget& target,sf::RenderStates states=sf::RenderStates::Default) const;
