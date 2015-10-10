@@ -152,26 +152,34 @@ bool Object::CollisionCheckWithAnotherObject(Object& Obj) //JEŚLI 1 TO JEST KOL
 void Object::Move(Direction dir)
 {
     float MovementSpeed = 5.0f; // na razie tutaj ustawiony Movement speed
-
+    sf::Vector2f start;
     float startingX = Position.x;
     float startingY = Position.y;
+    if(Collision==Circle) start = CircleCenter;
     switch(dir)
     {
     case LEFT:
         Position.x-=MovementSpeed;
+        if(Collision==Circle) CircleCenter.x-=MovementSpeed;
         break;
     case RIGHT:
         Position.x+=MovementSpeed;
+        if(Collision==Circle) CircleCenter.x+=MovementSpeed;
         break;
     case DOWN:
         Position.y+=MovementSpeed;
+        if(Collision==Circle) CircleCenter.y+=MovementSpeed;
         break;
     case UP:
         Position.y-=MovementSpeed;
+        if(Collision==Circle) CircleCenter.y-=MovementSpeed;
         break;
     }
     if(CheckForCollisions())
+    {
         Position = sf::Vector2f(startingX,startingY);
+        if(Collision==Circle) CircleCenter = start;
+    }
     rect.setPosition(Position);
 }
 void Object::draw(sf::RenderTarget& target,sf::RenderStates states) const
