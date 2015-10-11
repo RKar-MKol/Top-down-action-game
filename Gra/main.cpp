@@ -1,16 +1,16 @@
 //#include <SFML\Graphics.hpp>
 //#include <cmath>
-#include "Object.h"
+#include "Unit.h"
 #include "Map.h"
 
 #define ScreenHeight 640
 #define ScreenWidth 800
 
+#define FPS 60.0
 using namespace std;
 
-sf::RenderWindow GameWindow;
-sf::View Camera;
-void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa);
+
+void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa,sf::View* Cam,sf::RenderWindow *Gw);
 
 int main()
 {
@@ -24,10 +24,10 @@ int main()
     //@@@@@@@@@@@@@@@@@@@//
 
     /** TESTOWANIE RAFAL **/
-    sf::View Camera;
 
 
-    Object*postac = new Object(sf::Vector2f(400,100),30);
+
+    Unit*postac = new Unit(sf::Vector2f(400,100),30);
 
 
 
@@ -42,7 +42,12 @@ int main()
 
 
     sf::RenderWindow GameWindow( sf::VideoMode(ScreenWidth,ScreenHeight), "Game" ,sf::Style::Default);
+    sf::View Camera = GameWindow.getDefaultView();
     sf::Clock clock;
+    sf::Time TimePerFrame = sf::seconds(1/FPS);
+
+    GameWindow.setKeyRepeatEnabled(true);
+
 
     /** %%%%%%%%%%%%%%%%% GAME LOOP  %%%%%%%%%%%%%%%%% **/
     while( GameWindow.isOpen() )
@@ -64,23 +69,58 @@ int main()
                     postac->Move(LEFT);
                 if(event.key.code == sf::Keyboard::Right)
                     postac->Move(RIGHT);
+
+                // Move2 z Velocity
+                if(event.key.code == sf::Keyboard::W)
+                    postac->Move2(UP);
+                if(event.key.code == sf::Keyboard::S)
+                    postac->Move2(DOWN);
+                if(event.key.code == sf::Keyboard::A)
+                    postac->Move2(LEFT);
+                if(event.key.code == sf::Keyboard::D)
+                    postac->Move2(RIGHT);
+
+                //Move3 z Velocity i release
+                if(event.key.code == sf::Keyboard::I)
+                    postac->Move3(UP);
+                if(event.key.code == sf::Keyboard::K)
+                    postac->Move3(DOWN);
+                if(event.key.code == sf::Keyboard::J)
+                    postac->Move3(LEFT);
+                if(event.key.code == sf::Keyboard::L)
+                    postac->Move3(RIGHT);
+                break;
+            case sf::Event::KeyReleased:
+                if(event.key.code == sf::Keyboard::I)
+                    postac->Move3(NOT_UP);
+                if(event.key.code == sf::Keyboard::K)
+                    postac->Move3(NOT_DOWN);
+                if(event.key.code == sf::Keyboard::J)
+                    postac->Move3(NOT_LEFT);
+                if(event.key.code == sf::Keyboard::L)
+                    postac->Move3(NOT_RIGHT);
                 break;
 
             }
 
 
         }
-        GameWindow.clear();
+        if(clock.getElapsedTime()>= TimePerFrame)
+        {
+            postac->UpdatePosition2(); // do move z velocity
+            postac->UpdatePosition3(); // do moev z velocity i release
+            GameWindow.clear();
 
-        CameraUpdate(postac,testowa_mapa);
-        GameWindow.draw(*testowa_mapa);
-        GameWindow.draw(*postac);
+            CameraUpdate(postac,testowa_mapa,&Camera,&GameWindow);
+            GameWindow.draw(*testowa_mapa);
+            GameWindow.draw(*postac);
 
-        GameWindow.display();
+            GameWindow.display();
+        }
     }
     /** %%%%%%%%%%%%%%%%% GAME LOOP  %%%%%%%%%%%%%%%%% **/
 }
-void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa)
+void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa,sf::View* Cam,sf::RenderWindow* GW)
 {
 
 
@@ -89,7 +129,7 @@ void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa)
 
     float tempX = WzgledemKtoregoCamera->Position.x; //
     float tempY = WzgledemKtoregoCamera->Position.y;
-    sf::Vector2f temporary_vector(Camera.getCenter()); // PRZY FULL SCREENIE SIE JEBIE
+    sf::Vector2f temporary_vector(Cam->getCenter()); // PRZY FULL SCREENIE SIE JEBIE
 
     float MapSizeX = mapa->MapSize.x;
     float MapSizeY = mapa->MapSize.y;
@@ -125,8 +165,8 @@ void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa)
         }
 
     }
-    Camera.setCenter(temporary_vector);
-    GameWindow.setView(Camera);
+    Cam->setCenter(temporary_vector);
+    GW->setView(*Cam);
 
 
 
