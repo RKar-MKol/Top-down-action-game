@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="gargulec.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4626">
+      <stop
+         style="stop-color:#352a2a;stop-opacity:1"
+         offset="0"
+         id="stop4628" />
+      <stop
+         style="stop-color:#5c4a4a;stop-opacity:1"
+         offset="1"
+         id="stop4630" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4616"
+       inkscape:collect="always">
+      <stop
+         id="stop4618"
+         offset="0"
+         style="stop-color:#352a2a;stop-opacity:1" />
+      <stop
+         id="stop4620"
+         offset="1"
+         style="stop-color:#755d5d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4590">
+      <stop
+         style="stop-color:#f90000;stop-opacity:1"
+         offset="0"
+         id="stop4592" />
+      <stop
+         style="stop-color:#2a0000;stop-opacity:1"
+         offset="1"
+         id="stop4594" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4582">
+      <stop
+         style="stop-color:#e2e2e2;stop-opacity:0.957"
+         offset="0"
+         id="stop4584" />
+      <stop
+         style="stop-color:#929292;stop-opacity:1"
+         offset="1"
+         id="stop4586" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4550">
+      <stop
+         style="stop-color:#ededed;stop-opacity:1;"
+         offset="0"
+         id="stop4552" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1"
+         offset="1"
+         id="stop4554" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4424">
+      <stop
+         style="stop-color:#785c5c;stop-opacity:1"
+         offset="0"
+         id="stop4426" />
+      <stop
+         style="stop-color:#443737;stop-opacity:1"
+         offset="1"
+         id="stop4428" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4412">
+      <stop
+         style="stop-color:#803737;stop-opacity:1;"
+         offset="0"
+         id="stop4414" />
+      <stop
+         style="stop-color:#4f2222;stop-opacity:1"
+         offset="1"
+         id="stop4416" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4402">
+      <stop
+         style="stop-color:#916f6f;stop-opacity:1;"
+         offset="0"
+         id="stop4404" />
+      <stop
+         style="stop-color:#635454;stop-opacity:1"
+         offset="1"
+         id="stop4406" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4392"
+       inkscape:collect="always">
+      <stop
+         id="stop4394"
+         offset="0"
+         style="stop-color:#ededed;stop-opacity:1;" />
+      <stop
+         id="stop4396"
+         offset="1"
+         style="stop-color:#3c3c3c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4378">
+      <stop
+         style="stop-color:#886c6c;stop-opacity:1"
+         offset="0"
+         id="stop4380" />
+      <stop
+         style="stop-color:#483a3a;stop-opacity:1"
+         offset="1"
+         id="stop4382" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4370">
+      <stop
+         style="stop-color:#7b6060;stop-opacity:1"
+         offset="0"
+         id="stop4372" />
+      <stop
+         style="stop-color:#564848;stop-opacity:1"
+         offset="1"
+         id="stop4374" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4362">
+      <stop
+         style="stop-color:#916f6f;stop-opacity:1"
+         offset="0"
+         id="stop4364" />
+      <stop
+         style="stop-color:#5d4d4d;stop-opacity:1"
+         offset="1"
+         id="stop4366" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4354">
+      <stop
+         style="stop-color:#715959;stop-opacity:1"
+         offset="0"
+         id="stop4356" />
+      <stop
+         style="stop-color:#372e2e;stop-opacity:1"
+         offset="1"
+         id="stop4358" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4346">
+      <stop
+         style="stop-color:#715959;stop-opacity:1"
+         offset="0"
+         id="stop4348" />
+      <stop
+         style="stop-color:#302828;stop-opacity:1"
+         offset="1"
+         id="stop4350" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4338">
+      <stop
+         style="stop-color:#775e5e;stop-opacity:1"
+         offset="0"
+         id="stop4340" />
+      <stop
+         style="stop-color:#302828;stop-opacity:1"
+         offset="1"
+         id="stop4342" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4330">
+      <stop
+         style="stop-color:#675252;stop-opacity:1"
+         offset="0"
+         id="stop4332" />
+      <stop
+         style="stop-color:#443636;stop-opacity:1"
+         offset="1"
+         id="stop4334" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4320">
+      <stop
+         style="stop-color:#ededed;stop-opacity:1;"
+         offset="0"
+         id="stop4322" />
+      <stop
+         style="stop-color:#ededed;stop-opacity:0;"
+         offset="1"
+         id="stop4324" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4312">
+      <stop
+         style="stop-color:#634f4f;stop-opacity:1"
+         offset="0"
+         id="stop4314" />
+      <stop
+         style="stop-color:#453636;stop-opacity:1"
+         offset="1"
+         id="stop4316" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4304">
+      <stop
+         style="stop-color:#7a6161;stop-opacity:1"
+         offset="0"
+         id="stop4306" />
+      <stop
+         style="stop-color:#332929;stop-opacity:1"
+         offset="1"
+         id="stop4308" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4296">
+      <stop
+         style="stop-color:#9a7b7b;stop-opacity:1"
+         offset="0"
+         id="stop4298" />
+      <stop
+         style="stop-color:#332727;stop-opacity:0.99"
+         offset="1"
+         id="stop4300" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4244"
+       inkscape:collect="always">
+      <stop
+         id="stop4246"
+         offset="0"
+         style="stop-color:#080000;stop-opacity:1" />
+      <stop
+         id="stop4248"
+         offset="1"
+         style="stop-color:#030000;stop-opacity:0.631" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4199">
+      <stop
+         style="stop-color:#916f6f;stop-opacity:1;"
+         offset="0"
+         id="stop4201" />
+      <stop
+         style="stop-color:#332727;stop-opacity:1"
+         offset="1"
+         id="stop4203" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4199"
+       id="radialGradient4205"
+       cx="157.9706"
+       cy="471.43311"
+       fx="157.9706"
+       fy="471.43311"
+       r="150.23505"
+       gradientTransform="matrix(-0.51635198,0.97021234,-0.95761469,-0.5096475,658.36766,513.36028)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4232"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4296"
+       id="radialGradient4302"
+       cx="87.07032"
+       cy="472.77332"
+       fx="87.07032"
+       fy="472.77332"
+       r="57.568822"
+       gradientTransform="matrix(0.99853054,0.05419192,-0.13648261,2.5148038,64.585427,-740.15408)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4304"
+       id="radialGradient4310"
+       cx="135.29018"
+       cy="453.46558"
+       fx="135.29018"
+       fy="453.46558"
+       r="62.07588"
+       gradientTransform="matrix(0.97443679,-0.22466183,0.47752618,2.0711978,-213.08324,-476.10306)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4312"
+       id="radialGradient4318"
+       cx="97.992271"
+       cy="359.01163"
+       fx="97.992271"
+       fy="359.01163"
+       r="33.214287"
+       gradientTransform="matrix(1.3269418,-0.71471006,0.43978611,0.81651376,-187.18177,135.99047)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4320"
+       id="radialGradient4326"
+       cx="146.80504"
+       cy="310.17474"
+       fx="146.80504"
+       fy="310.17474"
+       r="21.068887"
+       gradientTransform="matrix(0.32549456,0.33816441,-0.77377578,0.74478511,339.02649,30.108709)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4330"
+       id="radialGradient4336"
+       cx="119.57819"
+       cy="336.44937"
+       fx="119.57819"
+       fy="336.44937"
+       r="16.38393"
+       gradientTransform="matrix(0.57607373,0.81739774,-0.94409343,0.66536448,369.06999,16.67287)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4338"
+       id="radialGradient4344"
+       cx="164.78368"
+       cy="425.98187"
+       fx="164.78368"
+       fy="425.98187"
+       r="85.105355"
+       gradientTransform="matrix(-0.67088523,0.7415612,-1.0868881,-0.98330009,738.32925,719.59215)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4346"
+       id="radialGradient4352"
+       cx="192.16754"
+       cy="402.55795"
+       fx="192.16754"
+       fy="402.55795"
+       r="95.738985"
+       gradientTransform="matrix(1.2573963,0.72369386,-0.40731805,0.70770283,114.50591,-13.781288)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4354"
+       id="radialGradient4360"
+       cx="180.73392"
+       cy="337.11304"
+       fx="180.73392"
+       fy="337.11304"
+       r="101.22689"
+       gradientTransform="matrix(0.90793363,0.53838651,-0.25707278,0.43352683,101.47365,112.00741)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4362"
+       id="radialGradient4368"
+       cx="319.82781"
+       cy="551.45514"
+       fx="319.82781"
+       fy="551.45514"
+       r="24.67899"
+       gradientTransform="matrix(1,0,0,1.0349129,0,-19.252875)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4370"
+       id="radialGradient4376"
+       cx="320.11648"
+       cy="539.69642"
+       fx="320.11648"
+       fy="539.69642"
+       r="38.475893"
+       gradientTransform="matrix(1,0,0,1.2196158,0,-118.52584)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4378"
+       id="radialGradient4384"
+       cx="355.84155"
+       cy="407.82019"
+       fx="355.84155"
+       fy="407.82019"
+       r="98.889358"
+       gradientTransform="matrix(-0.99478469,-0.00273997,0.00378693,-1.3748945,706.00337,940.73169)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4392"
+       id="radialGradient4390"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.60894996,-0.15557467,0.73756942,1.7970001,-1.545552,-234.20976)"
+       cx="135.62238"
+       cy="308.5575"
+       fx="135.62238"
+       fy="308.5575"
+       r="21.068887" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4392"
+       id="radialGradient4400"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.62563801,-0.07254046,-0.56976113,2.066692,665.72495,-330.26109)"
+       cx="137.94489"
+       cy="310.63333"
+       fx="137.94489"
+       fy="310.63333"
+       r="21.068887" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4402"
+       id="radialGradient4408"
+       cx="355.20297"
+       cy="349.03143"
+       fx="355.20297"
+       fy="349.03143"
+       r="59.593925"
+       gradientTransform="matrix(0.99999587,0.00287428,-0.00299647,1.0425088,1.0683726,-16.156934)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4412"
+       id="radialGradient4418"
+       cx="323.5752"
+       cy="337.82089"
+       fx="323.5752"
+       fy="337.82089"
+       r="11.976213"
+       gradientTransform="matrix(1,0,0,0.72120152,3.5355339,81.304505)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4412"
+       id="radialGradient4422"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,0.72120152,709.61449,80.590219)"
+       cx="323.5752"
+       cy="337.82089"
+       fx="323.5752"
+       fy="337.82089"
+       r="11.976213" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4424"
+       id="radialGradient4430"
+       cx="280.3222"
+       cy="342.27495"
+       fx="280.3222"
+       fy="342.27495"
+       r="21.655975"
+       gradientTransform="matrix(1,0,0,2.2532759,0,-428.96494)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4424"
+       id="radialGradient4434"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,2.2532759,712.78726,-426.82209)"
+       cx="280.3222"
+       cy="342.27495"
+       fx="280.3222"
+       fy="342.27495"
+       r="21.655975" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4370"
+       id="radialGradient4440"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,1.2196158,720.28754,-119.28346)"
+       cx="320.11648"
+       cy="539.69642"
+       fx="320.11648"
+       fy="539.69642"
+       r="38.475893" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4362"
+       id="radialGradient4442"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,1.0349129,720.28754,-20.010489)"
+       cx="319.82781"
+       cy="551.45514"
+       fx="319.82781"
+       fy="551.45514"
+       r="24.67899" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4199"
+       id="radialGradient4486"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.51635198,0.97021234,0.95761469,-0.5096475,52.957825,511.33997)"
+       cx="157.9706"
+       cy="471.43311"
+       fx="157.9706"
+       fy="471.43311"
+       r="150.23505" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4320"
+       id="radialGradient4488"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.32549456,0.33816441,0.77377578,0.74478511,372.299,28.088404)"
+       cx="146.80504"
+       cy="310.17474"
+       fx="146.80504"
+       fy="310.17474"
+       r="21.068887" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4490"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4492"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4494"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4496"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4498"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4500"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4502"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4504"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4244"
+       id="radialGradient4506"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.27803999,0.38474125,-0.3626378,0.26206652,221.77491,216.87042)"
+       cx="127.67161"
+       cy="368.39532"
+       fx="127.67161"
+       fy="368.39532"
+       r="149.8974" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4312"
+       id="radialGradient4508"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.3269418,-0.71471006,-0.43978611,0.81651376,898.50725,133.97016)"
+       cx="97.992271"
+       cy="359.01163"
+       fx="97.992271"
+       fy="359.01163"
+       r="33.214287" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4296"
+       id="radialGradient4510"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.99853054,0.05419192,0.13648261,2.5148038,646.74006,-742.17439)"
+       cx="87.07032"
+       cy="472.77332"
+       fx="87.07032"
+       fy="472.77332"
+       r="57.568822" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4304"
+       id="radialGradient4512"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.97443679,-0.22466183,-0.47752618,2.0711978,924.40872,-478.12337)"
+       cx="135.29018"
+       cy="453.46558"
+       fx="135.29018"
+       fy="453.46558"
+       r="62.07588" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4338"
+       id="radialGradient4514"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.67088523,0.7415612,1.0868881,-0.98330009,-27.003762,717.57184)"
+       cx="164.78368"
+       cy="425.98187"
+       fx="164.78368"
+       fy="425.98187"
+       r="85.105355" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4330"
+       id="radialGradient4516"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.57607373,0.81739774,0.94409343,0.66536448,342.2555,14.652565)"
+       cx="119.57819"
+       cy="336.44937"
+       fx="119.57819"
+       fy="336.44937"
+       r="16.38393" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4354"
+       id="radialGradient4518"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.90793363,0.53838651,0.25707278,0.43352683,609.85184,109.9871)"
+       cx="180.73392"
+       cy="337.11304"
+       fx="180.73392"
+       fy="337.11304"
+       r="101.22689" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4346"
+       id="radialGradient4520"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1.2573963,0.72369386,0.40731805,0.70770283,596.81958,-15.801593)"
+       cx="192.16754"
+       cy="402.55795"
+       fx="192.16754"
+       fy="402.55795"
+       r="95.738985" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4412"
+       id="radialGradient4530"
+       cx="329.17746"
+       cy="456.79068"
+       fx="329.17746"
+       fy="456.79068"
+       r="7.7644"
+       gradientTransform="matrix(1,0,0,5.7993954,0,-2192.3191)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4412"
+       id="radialGradient4534"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,5.7993954,711.1354,-2192.0666)"
+       cx="329.17746"
+       cy="456.79068"
+       fx="329.17746"
+       fy="456.79068"
+       r="7.7644" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4550"
+       id="radialGradient4548"
+       cx="338.40125"
+       cy="304.29742"
+       fx="338.40125"
+       fy="304.29742"
+       r="4.6341462"
+       gradientTransform="matrix(0.98804973,0,0,0.65789029,4.721288,105.99343)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4550"
+       id="radialGradient4558"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.98804973,0,0,0.65789029,708.59671,106.08271)"
+       cx="338.40125"
+       cy="304.29742"
+       fx="338.40125"
+       fy="304.29742"
+       r="4.6341462" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4550"
+       id="radialGradient4562"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.82349116,0.07600263,-0.04877917,0.56243984,82.671644,108.51109)"
+       cx="338.40125"
+       cy="304.29742"
+       fx="338.40125"
+       fy="304.29742"
+       r="4.6341462" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4550"
+       id="radialGradient4566"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.82022495,0.10557046,0.06897585,0.56032162,622.76232,99.156183)"
+       cx="338.40125"
+       cy="304.29742"
+       fx="338.40125"
+       fy="304.29742"
+       r="4.6341462" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4550"
+       id="radialGradient4570"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.82105199,0.09893288,-0.06444162,0.56086118,95.222149,100.74552)"
+       cx="338.40125"
+       cy="304.29742"
+       fx="338.40125"
+       fy="304.29742"
+       r="4.6341462" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4550"
+       id="radialGradient4574"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-0.82105199,0.09893288,0.06444162,0.56086118,617.9828,100.83481)"
+       cx="338.40125"
+       cy="304.29742"
+       fx="338.40125"
+       fy="304.29742"
+       r="4.6341462" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4582"
+       id="radialGradient4588"
+       cx="338.39374"
+       cy="284.90707"
+       fx="338.39374"
+       fy="284.90707"
+       r="9.7714595"
+       gradientTransform="matrix(0.99385068,-0.11072858,0.0263676,0.23666392,-7.1991936,277.29934)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4590"
+       id="radialGradient4596"
+       cx="338.34824"
+       cy="284.17023"
+       fx="338.34824"
+       fy="284.17023"
+       r="3.0357144"
+       gradientTransform="matrix(1,0,0,0.25,-37.859885,270.86199)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4582"
+       id="radialGradient4602"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99329611,0.11559773,-0.02752709,0.23653186,47.406021,200.87607)"
+       cx="338.39374"
+       cy="284.90707"
+       fx="338.39374"
+       fy="284.90707"
+       r="9.7714595" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4590"
+       id="radialGradient4604"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.25,70.309034,190.11441)"
+       cx="338.34824"
+       cy="284.17023"
+       fx="338.34824"
+       fy="284.17023"
+       r="3.0357144" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4616"
+       id="radialGradient4614"
+       cx="356.14441"
+       cy="439.19958"
+       fx="356.14441"
+       fy="439.19958"
+       r="158.99396"
+       gradientTransform="matrix(1.3009688,-0.05279075,0.06947398,1.7121085,-137.70131,-293.95665)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4626"
+       id="radialGradient4624"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5259047,-0.06191821,0.08148595,2.00813,-223.45393,-420.00421)"
+       cx="356.14441"
+       cy="439.19958"
+       fx="356.14441"
+       fy="439.19958"
+       r="158.99396" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="332.99251"
+     inkscape:cy="641.20716"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1035"
+     inkscape:window-height="1002"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       ry="8.2363338"
+       y="202.95253"
+       x="169.76247"
+       height="473.9227"
+       width="372.02933"
+       id="rect4622"
+       style="opacity:1;fill:url(#radialGradient4624);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49"
+       inkscape:export-ydpi="49" />
+    <rect
+       style="opacity:1;fill:url(#radialGradient4614);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4606"
+       width="317.1879"
+       height="404.061"
+       x="197.55046"
+       y="237.1691"
+       ry="7.022203"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49"
+       inkscape:export-ydpi="49" />
+    <path
+       style="fill:#8a6b6b;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 310.08928,318.5203 4.28572,-8.03572 8.39285,-5.17857 c 5.4732,-4.50563 10.9464,-4.26456 16.4196,-5.20024 12.46313,-1.26556 22.7213,-0.57115 33.10597,0.0108 7.91185,0.56567 11.24308,3.87972 15.83158,6.4394 l 8.92857,6.42857 4.46429,7.5 z"
+       id="path4536"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:#651f1f;fill-opacity:1;fill-rule:evenodd;stroke:#260100;stroke-width:0.80000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 333.3963,307.24472 0.96737,2.78821 16.26133,-1.24215 28.30947,0.79908 0.216,-2.04908 -0.57904,-2.14286 -2.09822,-2.14286 c -0.98975,-0.83324 -5.91542,-0.68013 -7.99107,-0.89285 -2.45345,-0.23702 -3.28232,-0.60941 -9.46428,-0.53572 -2.43257,-0.015 -2.33704,-0.59177 -7.5,0 -2.15407,-0.14666 -3.96985,-0.48662 -7.23215,0 -2.67857,-0.0889 -5.35714,0.32871 -8.03571,1.25 -1.80193,1.28307 -2.37491,2.71976 -2.8537,4.16823 z"
+       id="path4576"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4560"
+       d="m 342.71486,307.31222 0.36722,-2.42137 2.52445,-1.91539 2.48893,0.30641 1.51269,1.29053 0.33508,2.17928 z"
+       style="fill:url(#radialGradient4562);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.50019681;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4548);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5902124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 334.77418,308.83581 0.18714,-2.84914 2.80711,-2.49301 2.99424,0.089 1.93378,1.33554 0.6238,2.49299 z"
+       id="path4540"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4566);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.50019681;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 370.03724,307.18121 -0.45407,-2.40661 -2.5917,-1.82335 -2.4763,0.39572 -1.46529,1.34411 -0.25649,2.18991 z"
+       id="path4564"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4556"
+       d="m 378.54382,308.92509 -0.18714,-2.84914 -2.80711,-2.49301 -2.99424,0.089 -1.93378,1.33554 -0.6238,2.49299 z"
+       style="fill:url(#radialGradient4558);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5902124;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4570);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.50019681;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 349.62149,306.71965 0.43459,-2.41019 2.2124,-1.58647 2.44848,-0.11644 1.87153,1.56653 0.27419,2.18778 z"
+       id="path4568"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="opacity:1;fill:url(#radialGradient4440);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14777792;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 362.30196,540.60611 9.00375,29.71035 c 2.88806,9.52998 13.46614,14.97426 26.38821,14.97426 l 8.94602,0 c 12.92208,0 18.79455,-8.49185 23.32504,-17.64853 2.91051,-5.8825 7.19557,-8.21025 8.10671,-17.6475 -0.31433,-6.3357 -1.61297,-24.22143 -0.69624,-33.04777 -39.95096,-31.17801 -49.79354,-41.17372 -75.07349,23.65919 z"
+       id="path4436"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssssccc"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       sodipodi:nodetypes="sssssssss"
+       inkscape:connector-curvature="0"
+       id="path4438"
+       d="m 408.67454,525.77424 -16.66795,0 c -8.64712,0 -15.60852,6.9614 -15.60852,15.60852 l 0,18.62952 c 0,8.64712 6.9614,15.60851 15.60852,15.60851 l 16.66795,0 c 8.64712,0 17.42046,-7.15336 15.60851,-15.60851 l -4.10714,-19.16523 c -1.81196,-8.45515 -2.85425,-15.07281 -11.50137,-15.07281 z"
+       style="opacity:1;fill:url(#radialGradient4442);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.23465836;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       sodipodi:nodetypes="cscsccssscsssscsssccscsc"
+       inkscape:connector-curvature="0"
+       id="path4432"
+       d="m 431.01783,311.39192 c 0.0597,-0.26877 0.9446,-9.86418 -0.87086,-13.35296 -0.41463,-0.7968 -1.97972,-1.85258 -1.97972,-1.85258 0,0 -1.95662,0.81944 -2.44712,1.89439 -1.48255,3.24907 -1.46988,12.50746 -1.3573,12.64818 0.24338,0.36507 -1.2694,-13.034 -1.42366,-13.14382 0,0 -3.35295,3.37584 -3.98641,5.51505 -1.76891,5.97358 -3.10912,12.06118 -2.35758,18.08317 0.15958,1.27873 2.03768,4.84124 2.15403,5.96231 1.65183,15.91535 -0.63831,9.18469 -3.22736,20.09814 l -4.06934,27.79393 c -1.41869,9.68974 7.88393,17.67696 17.67697,17.67696 l 6.77977,0 c 9.79304,0 18.32599,-7.90545 17.67696,-17.67696 l -4.09708,-27.14023 c -0.97656,-6.09979 -4.91173,-11.40278 -2.96544,-21.31529 0.28155,-1.43394 1.44865,-4.30717 1.88549,-5.94185 1.13502,-4.24733 0.90345,-10.5389 -1.5527,-14.58562 -1.91313,-3.15205 -6.65924,-6.22781 -6.65924,-6.22781 -0.17482,-0.25512 -1.29555,12.63717 -0.96515,13.24314 0.38,0.5815 -1.30435,-11.17505 -2.79925,-13.98704 -0.36799,-0.6922 -1.67016,-1.31436 -1.67016,-1.31436 0,0 -1.28678,0.80721 -1.54823,1.37806 -1.21062,2.64323 -2.19662,12.24519 -2.19662,12.24519 z"
+       style="opacity:1;fill:url(#radialGradient4434);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       sodipodi:nodetypes="cssssccc"
+       inkscape:connector-curvature="0"
+       id="path4145"
+       d="m 357.98558,541.36373 -9.00375,29.71035 c -2.88806,9.52998 -13.46614,14.97426 -26.38821,14.97426 l -8.94602,0 c -12.92208,0 -18.79455,-8.49185 -23.32504,-17.64853 -2.91051,-5.8825 -7.19557,-8.21025 -8.10671,-17.6475 0.31433,-6.3357 1.61297,-24.22143 0.69624,-33.04777 39.95096,-31.17801 49.79354,-41.17372 75.07349,23.65919 z"
+       style="opacity:1;fill:url(#radialGradient4376);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.14777792;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="opacity:1;fill:url(#radialGradient4430);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 281.76943,309.24907 c -0.0597,-0.26877 -0.9446,-9.86418 0.87086,-13.35296 0.41463,-0.7968 1.97972,-1.85258 1.97972,-1.85258 0,0 1.95662,0.81944 2.44712,1.89439 1.48255,3.24907 1.46988,12.50746 1.3573,12.64818 -0.24338,0.36507 1.2694,-13.034 1.42366,-13.14382 0,0 3.35295,3.37584 3.98641,5.51505 1.76891,5.97358 3.10912,12.06118 2.35758,18.08317 -0.15958,1.27873 -2.03768,4.84124 -2.15403,5.96231 -1.65183,15.91535 0.63831,9.18469 3.22736,20.09814 l 4.06934,27.79393 c 1.41869,9.68974 -7.88393,17.67696 -17.67697,17.67696 l -6.77977,0 c -9.79304,0 -18.32599,-7.90545 -17.67696,-17.67696 l 4.09708,-27.14023 c 0.97656,-6.09979 4.91173,-11.40278 2.96544,-21.31529 -0.28155,-1.43394 -1.44865,-4.30717 -1.88549,-5.94185 -1.13502,-4.24733 -0.90345,-10.5389 1.5527,-14.58562 1.91313,-3.15205 6.65924,-6.22781 6.65924,-6.22781 0.17482,-0.25512 1.29555,12.63717 0.96515,13.24314 -0.38,0.5815 1.30435,-11.17505 2.79925,-13.98704 0.36799,-0.6922 1.67016,-1.31436 1.67016,-1.31436 0,0 1.28678,0.80721 1.54823,1.37806 1.21062,2.64323 2.19662,12.24519 2.19662,12.24519 z"
+       id="rect4142"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscsccssscsssscsssccscsc"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="opacity:1;fill:url(#radialGradient4368);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.23465836;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 311.613,526.53186 16.66795,0 c 8.64712,0 15.60852,6.9614 15.60852,15.60852 l 0,18.62952 c 0,8.64712 -6.9614,15.60851 -15.60852,15.60851 l -16.66795,0 c -8.64712,0 -17.42046,-7.15336 -15.60851,-15.60851 l 4.10714,-19.16523 c 1.81196,-8.45515 2.85425,-15.07281 11.50137,-15.07281 z"
+       id="rect4147"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssssss"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="opacity:1;fill:url(#radialGradient4384);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 278.81601,350.74499 c 4.65217,1.413 9.83502,1.6271 14.10033,2.95011 48.65548,15.09189 83.66151,25.06151 123.61071,0.92208 6.33823,-3.27782 19.75754,-3.41547 22.2026,-4.00612 13.33698,-3.01361 16.78409,12.93024 16.61808,25.93875 -0.6451,50.55214 -3.07095,98.43047 -12.59524,138.81179 -6.21069,26.33227 -21.05353,35.49065 -27.47199,37.70566 -32.74923,11.30175 -67.8437,17.06614 -112.60757,0 -5.32937,-2.03181 -18.03501,-2.55833 -27.47199,-37.70566 -12.33214,-45.93018 -15.18649,-92.54119 -16.61908,-138.81179 -0.40256,-13.0022 8.79406,-29.27951 20.23415,-25.80482 z"
+       id="rect4138"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssccsssssss"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4532"
+       d="m 384.35105,415.20849 3.78807,-1.6415 -4.29315,-1.01015 -1.89403,1.51523 -2.39911,-0.12627 -1.51523,2.14657 0.3788,1.51523 -2.0203,0 1.38896,2.0203 -1.26269,1.51523 0.50508,1.6415 -0.25254,1.76777 -1.76777,0.37881 1.38896,2.14657 -0.37881,2.02031 -1.13642,3.15672 2.39911,2.27285 -0.25253,3.53553 -0.75762,2.65165 0.63135,1.38896 -0.25254,2.90419 0.12627,5.42957 -1.51523,0.25254 0.12627,3.03045 1.6415,0.50508 -0.50508,4.67196 0.75761,2.65165 0,3.15672 -0.88388,2.14658 1.51523,2.65165 -1.13642,2.52538 0.12627,3.15673 1.01015,0.63134 -0.12627,3.78807 -1.89404,1.51523 1.89404,2.02031 -0.88388,3.03045 -1.01016,2.14658 1.38896,2.77792 -0.88388,4.54568 3.53553,2.65165 0.12627,2.90419 2.65165,-1.64149 0.63135,-1.2627 z"
+       style="fill:url(#radialGradient4534);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4530);fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1.0"
+       d="m 326.78435,414.95595 -3.78807,-1.6415 4.29315,-1.01015 1.89403,1.51523 2.39911,-0.12627 1.51523,2.14657 -0.3788,1.51523 2.0203,0 -1.38896,2.0203 1.26269,1.51523 -0.50508,1.6415 0.25254,1.76777 1.76777,0.37881 -1.38896,2.14657 0.37881,2.02031 1.13642,3.15672 -2.39911,2.27285 0.25253,3.53553 0.75762,2.65165 -0.63135,1.38896 0.25254,2.90419 -0.12627,5.42957 1.51523,0.25254 -0.12627,3.03045 -1.6415,0.50508 0.50508,4.67196 -0.75761,2.65165 0,3.15672 0.88388,2.14658 -1.51523,2.65165 1.13642,2.52538 -0.12627,3.15673 -1.01015,0.63134 0.12627,3.78807 1.89404,1.51523 -1.89404,2.02031 0.88388,3.03045 1.01016,2.14658 -1.38896,2.77792 0.88388,4.54568 -3.53553,2.65165 -0.12627,2.90419 -2.65165,-1.64149 -0.63135,-1.2627 z"
+       id="path4522"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path4572"
+       d="m 363.58346,306.80894 -0.43459,-2.41019 -2.2124,-1.58647 -2.44848,-0.11644 -1.87153,1.56653 -0.27419,2.18778 z"
+       style="fill:url(#radialGradient4574);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.50019681;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="opacity:1;fill:url(#radialGradient4408);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 414.4965,350.07161 c 0,14.61277 -6.04323,34.72861 -15.39505,44.82481 -10.82079,11.6821 -26.19224,14.52165 -43.69888,14.52165 -20.36351,0 -36.17846,-1.86359 -46.80495,-17.00213 -6.40461,-9.12405 -12.28897,-30.49076 -12.28897,-42.34433 0,-18.1519 3.68224,-32.0288 18.69914,-38.26263 11.06005,-4.59126 26.55255,-6.8467 40.39478,-6.8467 15.33186,0 32.01966,2.686 43.55214,8.42351 13.01654,6.47584 15.54179,19.97262 15.54179,36.68582 z"
+       id="path4136"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssssssss"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4205);fill-rule:evenodd;stroke:#000000;stroke-width:1.0653336px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 332.11073,422.72718 -1.21626,8.56961 0.81083,17.13922 -1.82541,19.01557 c -1.00376,8.3392 5.00965,24.95593 -1.33838,28.90921 -19.14051,11.91991 -20.87381,23.48818 -25.45513,27.92755 -29.03767,9.76461 -58.70191,11.98693 -61.82759,26.88897 -38.61454,2.50113 -56.20075,4.09146 -87.51104,44.54805 -22.54809,-8.57896 -87.527291,5.33939 -115.895111,26.36824 -1.643991,-0.64088 -2.888381,-2.68953 -3.994842,-5.2241 -1.001825,-8.3136 -1.19774,-18.75659 -1.124835,-29.90985 0.648537,-19.24225 -1.168835,-10.7939 1.945611,-57.72673 1.859975,-19.99716 1.633946,-36.62608 6.379671,-61.2828 2.123209,-14.82181 4.704985,-30.85524 8.973597,-51.34565 2.588716,-10.66525 1.70632,-16.4391 16.92927,-44.90819 4.659657,-9.86339 13.774609,-19.72678 26.074059,-29.59017 8.40388,-7.58845 20.31762,-14.4556 36.82656,-20.37843 3.45675,-5.64298 1.83935,-6.17855 12.01453,-18.58399 2.08686,-1.49176 4.80325,-3.08432 12.74856,-5.51422 4.52601,-1.26041 11.57468,0.81188 18.15585,2.26656 -6.47592,1.45221 -16.72529,2.47094 -17.64805,4.56109 -4.32268,8.03953 -12.76033,19.5783 -9.99771,21.59276 6.853,0.78003 13.66082,1.4606 21.56446,4.55394 9.75991,1.48242 19.15859,5.19186 28.3794,9.99788 6.30483,2.11556 12.58556,4.2019 23.10893,11.42615 14.35206,7.66886 24.29331,14.11096 28.3794,18.92458 6.96414,4.35097 11.90903,11.37002 18.64933,17.85335 1.71921,3.78786 3.22209,7.53016 29.19023,16.4251 8.25277,3.83808 17.18987,7.33175 29.19024,9.28376 2.83794,2.43312 5.67589,0.29115 8.51383,8.21254 z"
+       id="path4155"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccsccccccccccccccccccccccccc"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4326);fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 130.08929,321.1122 5.35714,-9.10714 6.33928,-8.75 6.16072,-3.125 7.94643,-2.94643 7.14285,0.71429 8.30358,1.69643 -4.19643,1.16071 -8.75,1.96429 -2.94643,1.07142 -2.94643,5.26786 -2.94643,4.91072 -3.57143,5.98214 -1.42857,3.66071 0.26786,1.96429 -2.14286,2.41071 c 0,0 -4.375,-0.625 -4.91071,-0.625 -0.53572,0 -5.89286,-3.48214 -5.89286,-3.48214 l -1.96429,-2.32143 z"
+       id="path4185"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 168.49029,299.92483 1.9256,-0.0789"
+       id="path4165"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 129.67833,321.89564 2.27285,2.39912 5.6821,3.15672 4.79823,0.63135 2.39911,-1.76777"
+       id="path4181"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <g
+       id="g4207"
+       style="stroke:url(#radialGradient4232);opacity:0.762"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391">
+      <path
+         sodipodi:nodetypes="cccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path4157"
+         d="m 127.95326,352.81888 -11.07012,-0.88887 -22.938953,11.7607 -11.111679,8.58629 -13.889597,13.38452 -14.89975,19.1929 -7.724077,41.68674 -7.106963,45.20215 -2.877267,50.25726 -0.591734,48.59937 1.423314,25.71774 0.185688,3.82736"
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4232);stroke-width:5.9;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4159"
+         d="M 126.07143,352.00506 110.89286,337.18363 100.38067,337.4993 86.964286,347.00506 75.178572,359.14792 68.125,371.38006"
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4232);stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4161"
+         d="m 126.52161,351.69514 11.86929,-33.33503 10.73287,-16.41498 8.08122,-2.27284 11.49049,0.25254"
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4232);stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4167"
+         d="m 126.07143,352.3622 -11.78572,29.28572 -1.78571,43.57143 5,52.5 14.28571,67.14285 21.78572,50"
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4232);stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4171"
+         d="m 125.76399,353.33664 13.63706,63.63961 49.49748,84.34774 51.26524,49.11867"
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4232);stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         sodipodi:nodetypes="cccc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4173"
+         d="m 125.76399,353.33664 58.58885,64.64977 83.33758,82.8325 34.85027,23.73859"
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4232);stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4177"
+         d="m 125.76399,352.83157 70.71068,63.63961 70.2056,49.49747 62.62946,27.7792"
+         style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cccccc"
+         inkscape:connector-curvature="0"
+         id="path4195"
+         d="m 126.52161,353.58918 54.54823,29.04189 45.70941,28.28427 54.54823,17.93021 45.75498,7.73789 -0.55065,4.38394"
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4232);stroke-width:9.30000019;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccccccccccccc"
+         inkscape:connector-curvature="0"
+         id="path4197"
+         d="m 331.60714,424.59435 -1.41182,-0.13609 -2.04306,-4.81751 -4.35761,-2.68033 -22.85715,-6.60715 -25.40178,-10.13392 -8.75,-5.44643 -3.21429,-4.64286 -14.375,-14.375 -13.03571,-10.71428 -12.52288,-7.70051 -17.44833,-9.7433 -10.85126,-4.86693 -16.54125,-7.26047 -20.26619,-5.17703 -13.38452,-2.71479 -10.41415,2.6416"
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4232);stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:url(#radialGradient4318);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 120.53571,349.8622 -4.46428,-0.53571 -24.464287,12.5 -16.785714,14.82143 -8.75,8.75 -11.428572,15.35714 4.821429,-12.85714 8.392857,-15 5.892857,-10.35715 9.285714,-10.35714 13.75,-10.35714 4.464286,-2.32143 8.92857,-0.35714 10.89286,10 z"
+       id="path4258"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4302);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 122.481,355.35695 -4.79823,-0.75762 -13.76333,7.19734 -8.333755,4.29315 -24.871399,19.66524 -14.285714,17.5 -3.75,14.46429 -4.285715,24.10714 -7.857143,47.32143 -2.142857,45.53571 -1.25,49.64286 1.607143,26.60714 1.071429,9.64286 8.392857,-6.25 11.383928,-4.95536 14.017858,-5.44643 9.107143,-2.63393 23.124995,-5.58035 16.00144,-2.27314 17.29886,-0.44195 7.07107,0.75762 6.06092,1.89403 -3.91434,-7.70241 -13.7233,-34.15379 -4.82143,-8.57143 -13.57143,-66.78572 -5.51203,-52.61854 2.27285,-44.95179 9.84898,-25.25381 z"
+       id="path4260"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4310);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 124.82143,360.21935 -8.75,21.96428 -2.14286,43.21429 5.17857,53.92857 13.57143,63.92857 22.14286,50.53572 5.89286,-7.45536 7.94642,-8.61607 5.80358,-5.53572 7.11063,-6.02047 8.9651,-5.49271 10.4172,-4.41942 9.59645,-2.2097 9.65959,-1.57837 10.85914,-1.07328 7.00793,-0.31568 -6.88167,-6.43972 -27.27411,-25.63262 -16.54125,-16.66752 -31.18846,-53.28554 -18.56156,-30.93593 z"
+       id="path4262"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4344);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 129.8046,360.91279 10.85914,55.30585 49.75001,86.1155 50.83625,46.54592 4.0908,-5.3822 7.19734,-3.91434 7.70241,-3.78807 10.10153,-3.03046 11.86929,-3.03046 12.50064,-3.283 5.17703,-1.26269 -33.0825,-22.34962 -25.38008,-26.01143 -50.38136,-49.49747 -34.85026,-37.62819 -26.51651,-29.16815 z"
+       id="path4264"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4336);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 126.16071,349.68363 8.39286,-23.30357 -2.85714,-1.69643 -2.05357,-2.23214 -10,3.66071 -17.85715,10.08929 9.64286,-0.26786 z"
+       id="path4266"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4360);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 128.75,349.50506 6.42857,-17.94643 10.08929,-2.05357 18.83928,4.10714 15.08929,3.75 21.06631,9.53472 13.8896,7.57614 13.51079,7.32361 12.50064,8.5863 12.69337,11.08638 10.71429,10.17857 1.78571,3.75 15.339,8.82516 14.01587,5.17703 25.38008,7.70241 7.44987,3.40927 1.89404,5.93464 1.76777,0.25254 -0.75762,5.42957 -14.14213,-1.76777 -33.20877,-5.42957 -55.05331,-18.18274 -45.83567,-28.28427 -32.32489,-17.5514 z"
+       id="path4276"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4352);fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 304.30845,522.28466 5.05077,-8.08122 5.42957,-7.32361 5.55584,-5.55584 6.43972,-4.54569 3.28299,-2.65165 1.51523,-3.03045 -0.25253,-5.30331 -1.01016,-10.73287 -0.63134,-5.42957 0.75761,-9.21764 1.38896,-10.10152 -0.75761,-8.96511 -34.97653,-5.3033 -17.1726,-2.52538 -8.39266,-3.29815 -45.89285,-15 -24.28572,-15.89286 -32.32143,-19.46429 -27.67857,-13.92857 9.10715,12.32143 24.28571,26.60714 22.5,23.39286 24.28571,22.85714 37.67858,37.5 10.89285,11.25 14.64286,9.46429 14.28571,10.53571 z"
+       id="path4278"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4388"
+       d="m 317.93226,328.2801 -7.56427,-13.67794 -6.49814,-14.50812 0.19439,-9.64794 1.56307,-11.54694 5.47485,-7.5961 7.41267,-8.11367 -1.30383,5.77067 -3.27039,11.65517 -0.60501,4.26401 4.47372,7.7372 4.04151,7.44158 4.93479,9.04473 3.50834,4.66724 2.55021,1.3187 1.53448,4.45142 c 0,0 -3.58026,4.49742 -3.92604,5.11146 -0.34577,0.61406 -8.01787,3.87254 -8.01787,3.87254 l -4.07739,0.33019 z"
+       style="fill:url(#radialGradient4390);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.38615799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4400);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.38615799px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 395.39944,327.92296 7.56427,-13.67794 6.49814,-14.50812 -0.19439,-9.64794 -1.56307,-11.54694 -5.47485,-7.5961 -7.41267,-8.11367 1.30383,5.77067 3.27039,11.65517 0.60501,4.26401 -4.47372,7.7372 -4.04151,7.44158 -4.93479,9.04473 -3.50834,4.66724 -2.55021,1.3187 -1.53448,4.45142 c 0,0 3.58026,4.49742 3.92604,5.11146 0.34577,0.61406 8.01787,3.87254 8.01787,3.87254 l 4.07739,0.33019 z"
+       id="path4398"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4418);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 316.92839,328.85777 -0.89286,3.30357 2.32143,-1.96429 0.98214,0.98214 0,0.89286 1.25,0 0.53571,-1.07143 1.33929,-0.80357 1.33929,0.0893 1.69642,1.07143 0.625,-1.69643 2.14286,-0.26786 2.76786,1.16071 -0.80357,-1.33928 0.26785,-1.60714 1.07143,0.17857 0.625,-0.98215 0.53572,-1.16071 0.71428,-0.35714 1.25,-0.44643 0.26786,-0.80357 1.07143,-0.71429 1.16071,0.26786 -1.33928,-1.96429 0.98214,-0.53571 1.25,-0.0893 -0.80357,-0.98214 0.17857,-1.33929 0.98214,-0.35714 -0.17857,-0.98214 -1.07143,-0.53572 -1.51785,0 -1.51786,0.89286 -0.625,1.60714 -2.76786,3.48215 -1.42857,1.875 -5.17857,2.14285 -5.35714,1.33929 z"
+       id="path4410"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4420"
+       d="m 396.22163,328.14348 0.89286,3.30357 -2.32143,-1.96429 -0.98214,0.98214 0,0.89286 -1.25,0 -0.53571,-1.07143 -1.33929,-0.80357 -1.33929,0.0893 -1.69642,1.07143 -0.625,-1.69643 -2.14286,-0.26786 -2.76786,1.16071 0.80357,-1.33928 -0.26785,-1.60714 -1.07143,0.17857 -0.625,-0.98215 -0.53572,-1.16071 -0.71428,-0.35714 -1.25,-0.44643 -0.26786,-0.80357 -1.07143,-0.71429 -1.16071,0.26786 1.33928,-1.96429 -0.98214,-0.53571 -1.25,-0.0893 0.80357,-0.98214 -0.17857,-1.33929 -0.98214,-0.35714 0.17857,-0.98214 1.07143,-0.53572 1.51785,0 1.51786,0.89286 0.625,1.60714 2.76786,3.48215 1.42857,1.875 5.17857,2.14285 5.35714,1.33929 z"
+       style="fill:url(#radialGradient4422);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       sodipodi:nodetypes="ccccsccccccccccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path4444"
+       d="m 379.21476,420.70687 1.21626,8.56961 -0.81083,17.13922 1.82541,19.01557 c 1.00376,8.3392 -5.00965,24.95593 1.33838,28.90921 19.14051,11.91991 20.87381,23.48818 25.45513,27.92755 29.03767,9.76461 58.70191,11.98693 61.82759,26.88897 38.61454,2.50113 56.20075,4.09146 87.51104,44.54805 22.54809,-8.57896 87.52729,5.33939 115.89511,26.36824 1.64399,-0.64088 2.88838,-2.68953 3.99484,-5.2241 1.00182,-8.3136 1.19774,-18.75659 1.12483,-29.90985 -0.64853,-19.24225 1.16884,-10.7939 -1.94561,-57.72673 -1.85997,-19.99716 -1.63394,-36.62608 -6.37967,-61.2828 -2.12321,-14.82181 -4.70498,-30.85524 -8.9736,-51.34565 -2.58871,-10.66525 -1.70632,-16.4391 -16.92927,-44.90819 -4.65965,-9.86339 -13.7746,-19.72678 -26.07405,-29.59017 -8.40388,-7.58845 -20.31762,-14.4556 -36.82656,-20.37843 -3.45675,-5.64298 -1.83935,-6.17855 -12.01453,-18.58399 -2.08686,-1.49176 -4.80325,-3.08432 -12.74856,-5.51422 -4.52601,-1.26041 -11.57468,0.81188 -18.15585,2.26656 6.47592,1.45221 16.72529,2.47094 17.64805,4.56109 4.32268,8.03953 12.76033,19.5783 9.99771,21.59276 -6.853,0.78003 -13.66082,1.4606 -21.56446,4.55394 -9.75991,1.48242 -19.15859,5.19186 -28.3794,9.99788 -6.30483,2.11556 -12.58556,4.2019 -23.10893,11.42615 -14.35206,7.66886 -24.29331,14.11096 -28.3794,18.92458 -6.96414,4.35097 -11.90903,11.37002 -18.64933,17.85335 -1.71921,3.78786 -3.22209,7.53016 -29.19023,16.4251 -8.25277,3.83808 -17.18987,7.33175 -29.19024,9.28376 -2.83794,2.43312 -5.67589,0.29115 -8.51383,8.21254 z"
+       style="fill:url(#radialGradient4486);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.0653336px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4446"
+       d="m 581.2362,319.09189 -5.35714,-9.10714 -6.33928,-8.75 -6.16072,-3.125 -7.94643,-2.94643 -7.14285,0.71429 -8.30358,1.69643 4.19643,1.16071 8.75,1.96429 2.94643,1.07142 2.94643,5.26786 2.94643,4.91072 3.57143,5.98214 1.42857,3.66071 -0.26786,1.96429 2.14286,2.41071 c 0,0 4.375,-0.625 4.91071,-0.625 0.53572,0 5.89286,-3.48214 5.89286,-3.48214 l 1.96429,-2.32143 z"
+       style="fill:url(#radialGradient4488);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4448"
+       d="m 542.8352,297.90452 -1.9256,-0.0789"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4450"
+       d="m 581.64716,319.87533 -2.27285,2.39912 -5.6821,3.15672 -4.79823,0.63135 -2.39911,-1.76777"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <g
+       style="opacity:0.76200005;stroke:url(#radialGradient4506)"
+       id="g4452"
+       transform="matrix(-1,0,0,1,711.32549,-2.0203051)"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4490);stroke-width:5.9000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 127.95326,352.81888 -11.07012,-0.88887 -22.938953,11.7607 -11.111679,8.58629 -13.889597,13.38452 -14.89975,19.1929 -7.724077,41.68674 -7.106963,45.20215 -2.877267,50.25726 -0.591734,48.59937 1.423314,25.71774 0.185688,3.82736"
+         id="path4454"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccccccc" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4492);stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 126.07143,352.00506 110.89286,337.18363 100.38067,337.4993 86.964286,347.00506 75.178572,359.14792 68.125,371.38006"
+         id="path4456"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4494);stroke-width:2.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 126.52161,351.69514 11.86929,-33.33503 10.73287,-16.41498 8.08122,-2.27284 11.49049,0.25254"
+         id="path4458"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4496);stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 126.07143,352.3622 -11.78572,29.28572 -1.78571,43.57143 5,52.5 14.28571,67.14285 21.78572,50"
+         id="path4460"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="cccc"
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4498);stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 125.76399,353.33664 13.63706,63.63961 49.49748,84.34774 51.26524,49.11867"
+         id="path4462"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4500);stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 125.76399,353.33664 58.58885,64.64977 83.33758,82.8325 34.85027,23.73859"
+         id="path4464"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 125.76399,352.83157 70.71068,63.63961 70.2056,49.49747 62.62946,27.7792"
+         id="path4466"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4502);stroke-width:9.30000019;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 126.52161,353.58918 54.54823,29.04189 45.70941,28.28427 54.54823,17.93021 45.75498,7.73789 -0.55065,4.38394"
+         id="path4468"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccc" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient4504);stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 331.60714,424.59435 -1.41182,-0.13609 -2.04306,-4.81751 -4.35761,-2.68033 -22.85715,-6.60715 -25.40178,-10.13392 -8.75,-5.44643 -3.21429,-4.64286 -14.375,-14.375 -13.03571,-10.71428 -12.52288,-7.70051 -17.44833,-9.7433 -10.85126,-4.86693 -16.54125,-7.26047 -20.26619,-5.17703 -13.38452,-2.71479 -10.41415,2.6416"
+         id="path4470"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccccc" />
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path4472"
+       d="m 590.78978,347.84189 4.46428,-0.53571 24.46428,12.5 16.78572,14.82143 8.75,8.75 11.42857,15.35714 -4.82143,-12.85714 -8.39286,-15 -5.89285,-10.35715 -9.28572,-10.35714 -13.75,-10.35714 -4.46428,-2.32143 -8.92857,-0.35714 -10.89286,10 z"
+       style="fill:url(#radialGradient4508);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4474"
+       d="m 588.84449,353.33664 4.79823,-0.75762 13.76333,7.19734 8.33375,4.29315 24.8714,19.66524 14.28571,17.5 3.75,14.46429 4.28572,24.10714 7.85714,47.32143 2.14286,45.53571 1.25,49.64286 -1.60714,26.60714 -1.07143,9.64286 -8.39286,-6.25 -11.38393,-4.95536 -14.01786,-5.44643 -9.10714,-2.63393 -23.12499,-5.58035 -16.00144,-2.27314 -17.29886,-0.44195 -7.07107,0.75762 -6.06092,1.89403 3.91434,-7.70241 13.7233,-34.15379 4.82143,-8.57143 13.57143,-66.78572 5.51203,-52.61854 -2.27285,-44.95179 -9.84898,-25.25381 z"
+       style="fill:url(#radialGradient4510);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4476"
+       d="m 586.50406,358.19904 8.75,21.96428 2.14286,43.21429 -5.17857,53.92857 -13.57143,63.92857 -22.14286,50.53572 -5.89286,-7.45536 -7.94642,-8.61607 -5.80358,-5.53572 -7.11063,-6.02047 -8.9651,-5.49271 -10.4172,-4.41942 -9.59645,-2.2097 -9.65959,-1.57837 -10.85914,-1.07328 -7.00793,-0.31568 6.88167,-6.43972 27.27411,-25.63262 16.54125,-16.66752 31.18846,-53.28554 18.56156,-30.93593 z"
+       style="fill:url(#radialGradient4512);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4478"
+       d="m 581.52089,358.89248 -10.85914,55.30585 -49.75001,86.1155 -50.83625,46.54592 -4.0908,-5.3822 -7.19734,-3.91434 -7.70241,-3.78807 -10.10153,-3.03046 -11.86929,-3.03046 -12.50064,-3.283 -5.17703,-1.26269 33.0825,-22.34962 25.38008,-26.01143 50.38136,-49.49747 34.85026,-37.62819 26.51651,-29.16815 z"
+       style="fill:url(#radialGradient4514);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4480"
+       d="m 585.16478,347.66332 -8.39286,-23.30357 2.85714,-1.69643 2.05357,-2.23214 10,3.66071 17.85715,10.08929 -9.64286,-0.26786 z"
+       style="fill:url(#radialGradient4516);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4482"
+       d="m 582.57549,347.48475 -6.42857,-17.94643 -10.08929,-2.05357 -18.83928,4.10714 -15.08929,3.75 -21.06631,9.53472 -13.8896,7.57614 -13.51079,7.32361 -12.50064,8.5863 -12.69337,11.08638 -10.71429,10.17857 -1.78571,3.75 -15.339,8.82516 -14.01587,5.17703 -25.38008,7.70241 -7.44987,3.40927 -1.89404,5.93464 -1.76777,0.25254 0.75762,5.42957 14.14213,-1.76777 33.20877,-5.42957 55.05331,-18.18274 45.83567,-28.28427 32.32489,-17.5514 z"
+       style="fill:url(#radialGradient4518);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4484"
+       d="m 407.01704,520.26435 -5.05077,-8.08122 -5.42957,-7.32361 -5.55584,-5.55584 -6.43972,-4.54569 -3.28299,-2.65165 -1.51523,-3.03045 0.25253,-5.30331 1.01016,-10.73287 0.63134,-5.42957 -0.75761,-9.21764 -1.38896,-10.10152 0.75761,-8.96511 34.97653,-5.3033 17.1726,-2.52538 8.39266,-3.29815 45.89285,-15 24.28572,-15.89286 32.32143,-19.46429 27.67857,-13.92857 -9.10715,12.32143 -24.28571,26.60714 -22.5,23.39286 -24.28571,22.85714 -37.67858,37.5 -10.89285,11.25 -14.64286,9.46429 -14.28571,10.53571 z"
+       style="fill:url(#radialGradient4520);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       style="fill:url(#radialGradient4588);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 327.70714,308.65442 c 0.73546,0.74503 2.48365,1.31857 5.104,0.75355 l 7.52891,-0.72719 c 2.67857,-0.51088 2.35029,-0.16018 5.07829,-2.27911 -1.09525,-0.54711 -2.88191,-0.95032 -5.32809,-1.10333 -2.58283,-0.14129 -4.83339,0.29332 -7.02009,0.69228 -4.11833,0.84889 -3.96991,1.65125 -5.36302,2.6638 z"
+       id="path4578"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <ellipse
+       style="opacity:1;fill:url(#radialGradient4596);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.30980392"
+       id="path4580"
+       cx="300.48831"
+       cy="341.90457"
+       rx="3.0357144"
+       ry="0.7589286"
+       transform="matrix(0.99385068,-0.11072858,0.11072858,0.99385068,0,0)"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       inkscape:connector-curvature="0"
+       id="path4598"
+       d="m 366.68384,306.73953 c 0.54909,0.89134 2.12353,1.84331 4.80382,1.882 l 7.49961,0.98449 c 2.72485,0.10454 2.32611,0.37244 5.46073,-1.07877 -0.94416,-0.77939 -2.59439,-1.57404 -4.94351,-2.27321 -2.48491,-0.71848 -4.77556,-0.8011 -6.99597,-0.90408 -4.20374,-0.099 -4.23955,0.71623 -5.82468,1.38957 z"
+       style="fill:url(#radialGradient4602);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+    <ellipse
+       transform="matrix(0.99329611,0.11559773,-0.11559773,0.99329611,0,0)"
+       ry="0.7589286"
+       rx="3.0357144"
+       cy="261.15701"
+       cx="408.65723"
+       id="ellipse4600"
+       style="opacity:1;fill:url(#radialGradient4604);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.30980392"
+       inkscape:export-filename="C:\Users\Michal\Desktop\moja grafika\gargulec_podest.png"
+       inkscape:export-xdpi="49.385391"
+       inkscape:export-ydpi="49.385391" />
+  </g>
+</svg>
