@@ -1,5 +1,7 @@
 //#include <SFML\Graphics.hpp>
 //#include <cmath>
+#include <time.h>
+
 #include "Unit.h"
 #include "Map.h"
 
@@ -14,6 +16,7 @@ void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa,sf::View* Cam,sf::Rend
 
 int main()
 {
+    srand(time(NULL));
     //@@@@@@@@@@@@@@@@@@@//
     //     T E S T Y     //
     //@@@@@@@@@@@@@@@@@@@//
