@@ -2,9 +2,10 @@
 
 Unit::Unit(sf::Vector2f Position,float radius) : Object(Position,radius)
 {
+    rotation = sf::Vector2f(0,0);
     Velocity2 = sf::Vector2f(0,0);
     Velocity3 = Velocity2;
-    MovementSpeed = 10.0f;
+    MovementSpeed = 2.0f;
 }
 
 void Unit::Move(Direction dir)
@@ -122,30 +123,37 @@ void Unit::Move3(Direction dir)
     switch(dir)
     {
     case LEFT:
-        Velocity3.x = -1 * MovementSpeed;
+        Velocity3.x = - 1;
         break;
     case RIGHT:
-        Velocity3.x =  MovementSpeed;
+        Velocity3.x =  1;
         break;
     case DOWN:
-        Velocity3.y =  MovementSpeed;
+        Velocity3.y =  1;
         break;
     case UP:
-        Velocity3.y = -1 * MovementSpeed;
+        Velocity3.y = -1;
         break;
 
-    case NOT_LEFT:
-        Velocity3.x = 0;
+    /*case NOT_LEFT:
+        Velocity3.x += 1;
         break;
     case NOT_RIGHT:
-        Velocity3.x = 0;
+        Velocity3.x -= 1;
         break;
     case NOT_UP:
-        Velocity3.y = 0;
+        Velocity3.y += 1;
         break;
     case NOT_DOWN:
-        Velocity3.y = 0;
+        Velocity3.y -= 1;
         break;
+*/
+    float length = sqrt(Velocity3.x*Velocity3.x + Velocity3.y*Velocity3.y);
+    Velocity3.x/=length;
+    Velocity3.y/=length;
+    Velocity3.x*=MovementSpeed;
+    Velocity3.y*=MovementSpeed;
+
     }
 }
 void Unit::UpdatePosition3()
@@ -171,7 +179,28 @@ void Unit::UpdatePosition3()
 
     rect.setPosition(Position);
 
+    //Velocity3.x = 0;
+    //Velocity3.y = 0;
 }
+ void Unit::MovePLS()
+	{
+	    sf::Vector2f start = Position;
+		double l = sqrt(rotation.x*rotation.x+rotation.y*rotation.y);
+        if(l!=0)
+            {rotation.x/=l; rotation.y/=l;}
+        else
+            {rotation.x=0;rotation.y=0;}
+		Velocity = rotation*MovementSpeed;
+		Position+=Velocity;
+
+        if(CheckForCollisions())
+        {
+            Position = start;
+        }
+        rect.setPosition(Position);
+		//Sprajt.setPosition(pos.PodajX(),pos.PodajY());
+	}
+
 Unit::~Unit()
 {
     //dtor

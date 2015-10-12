@@ -11,7 +11,9 @@ class Unit : public Object
     public:
         Unit(sf::Vector2f Position,float radius);
         void Move(Direction dir); // 4 kierunki
-
+        void MovePLS();
+        sf::Vector2f GetRotation() {return rotation;}
+        void SetRotation(sf::Vector2f rotation) {this->rotation = rotation;}
         // RUCH Z VELOCITY
         void Move2(Direction dir);
         void UpdatePosition2();
@@ -23,7 +25,11 @@ class Unit : public Object
 
         virtual ~Unit();
     private:
+
+        sf::Vector2f Velocity;
         float MovementSpeed;
+        sf::Vector2f rotation;
+
         sf::Vector2f Velocity2;
         sf::Vector2f Velocity3;
 };

@@ -61,14 +61,14 @@ int main()
                 GameWindow.close();
                 break;
             case sf::Event::KeyPressed:
-                if(event.key.code == sf::Keyboard::Up)
+               /* if(event.key.code == sf::Keyboard::Up)
                     postac->Move(UP);
                 if(event.key.code == sf::Keyboard::Down)
                     postac->Move(DOWN);
                 if(event.key.code == sf::Keyboard::Left)
                     postac->Move(LEFT);
                 if(event.key.code == sf::Keyboard::Right)
-                    postac->Move(RIGHT);
+                    postac->Move(RIGHT);*/
 
                 // Move2 z Velocity
                 if(event.key.code == sf::Keyboard::W)
@@ -105,18 +105,33 @@ int main()
 
 
         }
+        if(sf::Keyboard::isKeyPressed( sf::Keyboard::Up ))
+			postac->SetRotation(postac->GetRotation() + sf::Vector2f(0,-1));
+		if(sf::Keyboard::isKeyPressed( sf::Keyboard::Down ))
+			postac->SetRotation( postac->GetRotation() + sf::Vector2f(0,1));
+		if(sf::Keyboard::isKeyPressed( sf::Keyboard::Left ))
+			postac->SetRotation(postac->GetRotation() + sf::Vector2f(-1,0));
+		if(sf::Keyboard::isKeyPressed( sf::Keyboard::Right ))
+			postac->SetRotation(postac->GetRotation() + sf::Vector2f(1,0));
+
         if(clock.getElapsedTime()>= TimePerFrame)
         {
             postac->UpdatePosition2(); // do move z velocity
             postac->UpdatePosition3(); // do moev z velocity i release
             GameWindow.clear();
 
+            postac->MovePLS();
+
+
+
             CameraUpdate(postac,testowa_mapa,&Camera,&GameWindow);
             GameWindow.draw(*testowa_mapa);
             GameWindow.draw(*postac);
 
             GameWindow.display();
+            clock.restart();
         }
+        postac->SetRotation(sf::Vector2f(0,0));
     }
     /** %%%%%%%%%%%%%%%%% GAME LOOP  %%%%%%%%%%%%%%%%% **/
 }
