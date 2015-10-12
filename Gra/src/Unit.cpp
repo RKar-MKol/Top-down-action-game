@@ -4,7 +4,7 @@ Unit::Unit(sf::Vector2f Position,float radius) : Object(Position,radius)
 {
     Velocity2 = sf::Vector2f(0,0);
     Velocity3 = Velocity2;
-    MovementSpeed = 8.0f;
+    MovementSpeed = 10.0f;
 }
 
 void Unit::Move(Direction dir)
@@ -13,32 +13,36 @@ void Unit::Move(Direction dir)
     sf::Vector2f start;
     float startingX = Position.x;
     float startingY = Position.y;
-    if(Collision==Circle) start = CircleCenter;
+    start = Position;
+    //if(Collision==Circle) start = CircleCenter;
     switch(dir)
     {
     case LEFT:
         Position.x-=MovementSpeed;
-        if(Collision==Circle) CircleCenter.x-=MovementSpeed;
+        //if(Collision==Circle) CircleCenter.x-=MovementSpeed;
         break;
     case RIGHT:
         Position.x+=MovementSpeed;
-        if(Collision==Circle) CircleCenter.x+=MovementSpeed;
+        //if(Collision==Circle) CircleCenter.x+=MovementSpeed;
         break;
     case DOWN:
         Position.y+=MovementSpeed;
-        if(Collision==Circle) CircleCenter.y+=MovementSpeed;
+        //if(Collision==Circle) CircleCenter.y+=MovementSpeed;
         break;
     case UP:
         Position.y-=MovementSpeed;
-        if(Collision==Circle) CircleCenter.y-=MovementSpeed;
+        //if(Collision==Circle) CircleCenter.y-=MovementSpeed;
         break;
     }
     if(CheckForCollisions())
     {
         Position = sf::Vector2f(startingX,startingY);
-        if(Collision==Circle) CircleCenter = start;
+        //if(Collision==Circle) CircleCenter = start;
     }
+    //cout<<Position.x<<" "<<Position.y<<endl;
     rect.setPosition(Position);
+    //cout<<rect.getPosition().x<<" "<<rect.getPosition().y<<endl;
+
 }
 
 void Unit::Move2(Direction dir)
@@ -69,12 +73,12 @@ void Unit::UpdatePosition2()
     sf::Vector2f start;
     float startingX = Position.x;
     float startingY = Position.y;
-    if(Collision==Circle) start = CircleCenter;
+    //if(Collision==Circle) start = CircleCenter;
 
     Position.x+=Velocity2.x;
     Position.y+=Velocity2.y;
-    CircleCenter.x+=Velocity2.x;
-    CircleCenter.y+=Velocity2.y;
+    //CircleCenter.x+=Velocity2.x;
+    //CircleCenter.y+=Velocity2.y;
 
     if(Velocity2.x < 0)
     {
@@ -108,7 +112,7 @@ void Unit::UpdatePosition2()
     if(CheckForCollisions())
     {
         Position = sf::Vector2f(startingX,startingY);
-        if(Collision==Circle) CircleCenter = start;
+        //if(Collision==Circle) CircleCenter = start;
     }
     rect.setPosition(Position);
 }
@@ -147,7 +151,7 @@ void Unit::Move3(Direction dir)
 void Unit::UpdatePosition3()
 {
     sf::Vector2f start;
-    if(Collision==Circle) start = CircleCenter;
+    //if(Collision==Circle) start = CircleCenter;
 
     if(Velocity3.x == 0 && Velocity3.y == 0 )
         return;
@@ -156,13 +160,13 @@ void Unit::UpdatePosition3()
 
     Position.x+=Velocity3.x;
     Position.y+=Velocity3.y;
-    CircleCenter.x+=Velocity3.x;
-    CircleCenter.y+=Velocity3.y;
+    //CircleCenter.x+=Velocity3.x;
+    //CircleCenter.y+=Velocity3.y;
 
     if(CheckForCollisions())
     {
         Position = sf::Vector2f(startingX,startingY);
-        if(Collision==Circle) CircleCenter = start;
+        //if(Collision==Circle) CircleCenter = start;
     }
 
     rect.setPosition(Position);
