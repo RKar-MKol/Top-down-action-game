@@ -60,51 +60,9 @@ int main()
             case sf::Event::Closed:
                 GameWindow.close();
                 break;
-            case sf::Event::KeyPressed:
-               /* if(event.key.code == sf::Keyboard::Up)
-                    postac->Move(UP);
-                if(event.key.code == sf::Keyboard::Down)
-                    postac->Move(DOWN);
-                if(event.key.code == sf::Keyboard::Left)
-                    postac->Move(LEFT);
-                if(event.key.code == sf::Keyboard::Right)
-                    postac->Move(RIGHT);*/
-
-                // Move2 z Velocity
-                if(event.key.code == sf::Keyboard::W)
-                    postac->Move2(UP);
-                if(event.key.code == sf::Keyboard::S)
-                    postac->Move2(DOWN);
-                if(event.key.code == sf::Keyboard::A)
-                    postac->Move2(LEFT);
-                if(event.key.code == sf::Keyboard::D)
-                    postac->Move2(RIGHT);
-
-                //Move3 z Velocity i release
-                if(event.key.code == sf::Keyboard::I)
-                    postac->Move3(UP);
-                if(event.key.code == sf::Keyboard::K)
-                    postac->Move3(DOWN);
-                if(event.key.code == sf::Keyboard::J)
-                    postac->Move3(LEFT);
-                if(event.key.code == sf::Keyboard::L)
-                    postac->Move3(RIGHT);
-                break;
-            case sf::Event::KeyReleased:
-                if(event.key.code == sf::Keyboard::I)
-                    postac->Move3(NOT_UP);
-                if(event.key.code == sf::Keyboard::K)
-                    postac->Move3(NOT_DOWN);
-                if(event.key.code == sf::Keyboard::J)
-                    postac->Move3(NOT_LEFT);
-                if(event.key.code == sf::Keyboard::L)
-                    postac->Move3(NOT_RIGHT);
-                break;
-
             }
-
-
         }
+        //Reakcja
         if(sf::Keyboard::isKeyPressed( sf::Keyboard::Up ))
 			postac->SetRotation(postac->GetRotation() + sf::Vector2f(0,-1));
 		if(sf::Keyboard::isKeyPressed( sf::Keyboard::Down ))
@@ -116,13 +74,8 @@ int main()
 
         if(clock.getElapsedTime()>= TimePerFrame)
         {
-            postac->UpdatePosition2(); // do move z velocity
-            postac->UpdatePosition3(); // do moev z velocity i release
             GameWindow.clear();
-
             postac->MovePLS();
-
-
 
             CameraUpdate(postac,testowa_mapa,&Camera,&GameWindow);
             GameWindow.draw(*testowa_mapa);
