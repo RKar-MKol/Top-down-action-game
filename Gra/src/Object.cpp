@@ -25,11 +25,12 @@ bool CollisionPointPoint(Object& o1, Object& o2)
 }
 bool CollisionPointCircle(Object& o1, Object& o2)
 {
+    sf::Vector2f CircleCenter = o2.Position+ sf::Vector2f(o2.CircleRadius,o2.CircleRadius);
     //Kolizja nie jest perfect, jest przyblizona
     float MAXdist = o2.CircleRadius + sqrt(Block_x)/2;
     float MINdist = o2.CircleRadius + Block_x/2;
     float Avg = (MAXdist + MINdist) / 2;
-    if(Vector2fDistance(o1.Position+sf::Vector2f(Block_x/2,Block_x/2),o2.CircleCenter) > Avg) return 0;
+    if(Vector2fDistance(o1.Position+sf::Vector2f(Block_x/2,Block_x/2),CircleCenter) > Avg) return 0;
     return 1;
 }
 bool CollisionPointRect(Object& o1, Object& o2)
@@ -43,18 +44,21 @@ bool CollisionPointRect(Object& o1, Object& o2)
 }
 bool CollisionCircleCircle(Object& o1, Object& o2)
 {
-    if(o1.CircleRadius + o2.CircleRadius < Vector2fDistance(o1.CircleCenter,o2.CircleCenter)) return false;
+    sf::Vector2f CircleCenter1 = o1.Position+ sf::Vector2f(o1.CircleRadius,o1.CircleRadius);
+    sf::Vector2f CircleCenter2 = o2.Position+ sf::Vector2f(o2.CircleRadius,o2.CircleRadius);
+    if(o1.CircleRadius + o2.CircleRadius < Vector2fDistance(CircleCenter1,CircleCenter2)) return false;
     return true;
 }
 bool CollisionCircleRect(Object& o1, Object& o2)
 {
+    sf::Vector2f CircleCenter = o1.Position+ sf::Vector2f(o1.CircleRadius,o1.CircleRadius);
 	if(o2.Position.y + o2.RectSize.y < o1.Position.y) return 0;
 	if(o2.Position.y > o1.Position.y + 2*o1.CircleRadius) return 0;
 	if(o2.Position.x + o2.RectSize.x < o1.Position.x) return 0;
 	if(o2.Position.x > o1.Position.x + 2*o1.CircleRadius) return 0;
 
-	if(o1.CircleCenter.x < o2.RectSize.x + o2.Position.x && o1.CircleCenter.x > o2.Position.x) return 1;
-	if(o1.CircleCenter.y < o2.RectSize.y + o2.Position.y && o1.CircleCenter.y > o2.Position.y) return 1;
+	if(CircleCenter.x < o2.RectSize.x + o2.Position.x && CircleCenter.x > o2.Position.x) return 1;
+	if(CircleCenter.y < o2.RectSize.y + o2.Position.y && CircleCenter.y > o2.Position.y) return 1;
 
 	sf::Vector2f TMPPoint = o2.Position;
 	sf::Vector2f TMPPoint2 = o2.Position + sf::Vector2f(0,o2.RectSize.y);
@@ -62,10 +66,10 @@ bool CollisionCircleRect(Object& o1, Object& o2)
 	sf::Vector2f TMPPoint4 = o2.Position + o2.RectSize;
 
 	if(
-        (Vector2fDistance(TMPPoint,o1.CircleCenter) > o1.CircleRadius)
-     && (Vector2fDistance(TMPPoint2,o1.CircleCenter) > o1.CircleRadius)
-     && (Vector2fDistance(TMPPoint3,o1.CircleCenter) > o1.CircleRadius)
-     && (Vector2fDistance(TMPPoint4,o1.CircleCenter) > o1.CircleRadius)
+        (Vector2fDistance(TMPPoint,CircleCenter) > o1.CircleRadius)
+     && (Vector2fDistance(TMPPoint2,CircleCenter) > o1.CircleRadius)
+     && (Vector2fDistance(TMPPoint3,CircleCenter) > o1.CircleRadius)
+     && (Vector2fDistance(TMPPoint4,CircleCenter) > o1.CircleRadius)
       )return 0;
 
 
@@ -83,7 +87,7 @@ bool CollisionRectRect(Object& o1, Object& o2) // RACZEJ OK
 }
 bool Object::CheckForCollisions(vector<Object*> Objs)
 {
-    bool ThereIsCollision = false;
+
     for(int i=0;i<Objs.size();i++)
     {
         if(CollisionCheckWithAnotherObject(*Objs[i]) && this!= Objs[i])
@@ -91,13 +95,13 @@ bool Object::CheckForCollisions(vector<Object*> Objs)
                //REAKCJA NA KOLIZJE
 
 
-               ThereIsCollision = true;
+
                cout<<"\nCollision with: "<<Objs[i]->ID;
+               return true;
            }
     }
 
-    if(ThereIsCollision) return 1;
-    return 0;
+    return false;
 }
 bool Object::CollisionCheckWithAnotherObject(Object& Obj) //JEŚLI 1 TO JEST KOLIZJA
 	{
@@ -149,6 +153,7 @@ bool Object::CollisionCheckWithAnotherObject(Object& Obj) //JEŚLI 1 TO JEST KOL
 //													//
 //													//
 //////////////////////////////////////////////////////
+
 void Object::draw(sf::RenderTarget& target,sf::RenderStates states) const
 {
     // DO UZUPELNIENIA
@@ -182,7 +187,6 @@ Object::Object(sf::Vector2f pos, float radius) //konstruktor okregu NIE SKONCZON
 	Collision = Circle;
 	Position = pos;
 	CircleRadius = radius;
-	CircleCenter = pos + sf::Vector2f(radius,radius);
 	AllObjects.push_back(this);
 	rect.setPosition(pos);
 	rect.setSize(sf::Vector2f(radius*2,radius*2));

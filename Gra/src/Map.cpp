@@ -54,6 +54,9 @@ void Map::LoadMapFromFile(string path)
         MapOfCollisions.push_back(temp);
     }
 
+    MapSize.x = TileSize.x * MapOfCollisions.size();
+    MapSize.y = TileSize.y * MapOfCollisions[0].size();
+
 }
 void Map::CreateMapFromArray()
 {

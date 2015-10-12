@@ -31,17 +31,18 @@ enum CollisionShape
 	{
 		Point, Circle, Rectangle, END
 	};
+
 class Object : public sf::Drawable
 {
     //ID Obiektow
 public:  static int IDiterator;
          static vector<Object*> AllObjects;
-private: int ID;
+         sf::Vector2f Position;
+protected: int ID;
 	//POLA KLASY
-	sf::Vector2f Position;
+
 	CollisionShape Collision;
 	sf::Vector2f RectSize;
-	sf::Vector2f CircleCenter;
 	float CircleRadius;
 	sf::RectangleShape rect;
 
@@ -57,9 +58,8 @@ public:
                                                   //reakcja mogłaby być klasą
 
     //Potem to bedzie protected ale na razie testy
-    void Move(sf::Vector2f Offset) {Position+=Offset;}
-    void ChangePosition(sf::Vector2f Position) {this->Position = Position;}
-
+    //void Move(sf::Vector2f Offset) {Position+=Offset;}
+   // void ChangePosition(sf::Vector2f Position) {this->Position = Position;}
 
     //DRAW
     virtual void draw(sf::RenderTarget& target,sf::RenderStates states=sf::RenderStates::Default) const;
