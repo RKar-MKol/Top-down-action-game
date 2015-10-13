@@ -17,6 +17,16 @@ void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa,sf::View* Cam,sf::Rend
 int main()
 {
     srand(time(NULL));
+
+    sf::RenderWindow GameWindow( sf::VideoMode(ScreenWidth,ScreenHeight), "Game" ,sf::Style::Default);
+    sf::View Camera = GameWindow.getDefaultView();
+
+    GameWindow.setKeyRepeatEnabled(true);
+
+    sf::Clock clock;
+    sf::Time TimePerFrame = sf::seconds(1/FPS);
+
+
     //@@@@@@@@@@@@@@@@@@@//
     //     T E S T Y     //
     //@@@@@@@@@@@@@@@@@@@//
@@ -25,6 +35,7 @@ int main()
     //@@@@@@@@@@@@@@@@@@@//
     //     T E S T Y     //
     //@@@@@@@@@@@@@@@@@@@//
+
 
     /** TESTOWANIE RAFAL **/
 
@@ -40,16 +51,10 @@ int main()
     testowa_mapa->CreateMapFromArray();
 
 
-    //cout << testowa_mapa->MapSize.x  << "   " << testowa_mapa->MapSize.y << endl;
     /** TESTOWANIE RAFAL **/
 
 
-    sf::RenderWindow GameWindow( sf::VideoMode(ScreenWidth,ScreenHeight), "Game" ,sf::Style::Default);
-    sf::View Camera = GameWindow.getDefaultView();
-    sf::Clock clock;
-    sf::Time TimePerFrame = sf::seconds(1/FPS);
 
-    GameWindow.setKeyRepeatEnabled(true);
 
 
     /** %%%%%%%%%%%%%%%%% GAME LOOP  %%%%%%%%%%%%%%%%% **/
