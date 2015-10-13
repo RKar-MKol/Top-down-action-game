@@ -15,6 +15,8 @@ class Unit : public Object
         void SetRotation(sf::Vector2f Rotation) {this->Rotation = Rotation;}
         void SetTexture(sf::Texture *texture);
 
+        void Rotate(sf::Vector2f MousePos);
+
         //DRAW
         virtual void draw(sf::RenderTarget& target,sf::RenderStates states=sf::RenderStates::Default) const;
 

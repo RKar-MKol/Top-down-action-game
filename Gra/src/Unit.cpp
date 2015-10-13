@@ -6,7 +6,7 @@ Unit::Unit(sf::Vector2f Position,float radius) : Object(Position,radius)
     {
         cout << " nie wczyty³a sie textura hunter.png w konstruktorze Unit" << endl;
     }
-
+    testowa_textura.setSmooth(true);
     SetTexture(&testowa_textura);
 
     Rotation = sf::Vector2f(0,0);
@@ -50,6 +50,22 @@ void Unit::MovePLS()
     rect.setPosition(Position);
     sprite.setPosition(Position);
 }
+
+void Unit::Rotate(sf::Vector2f MousePos)
+{
+
+   // sprite.rotate(arc);
+   float VecX = MousePos.x - Position.x;
+   float VecY = MousePos.y - Position.y;
+
+    cout << VecX << "  " <<VecY << endl;
+   //float angle = (atan2f(VecY,VecX)+ 180.0f) * 180/PI;
+  // cout << angle << "  kat " << endl;
+
+  // sprite.rotate(angle);
+
+}
+
 void Unit::draw(sf::RenderTarget& target,sf::RenderStates states) const
 {
     target.draw(sprite);
