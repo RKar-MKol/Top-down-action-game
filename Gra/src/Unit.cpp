@@ -58,11 +58,9 @@ void Unit::Rotate(sf::Vector2f MousePos)
    float VecX = MousePos.x - Position.x;
    float VecY = MousePos.y - Position.y;
 
-    cout << VecX << "  " <<VecY << endl;
-   //float angle = (atan2f(VecY,VecX)+ 180.0f) * 180/PI;
-  // cout << angle << "  kat " << endl;
+   float angle = (atan2f(VecY,VecX));
 
-  // sprite.rotate(angle);
+   sprite.setRotation(angle * 180.0f / PI  + 90.0f);
 
 }
 
