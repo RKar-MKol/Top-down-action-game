@@ -17,51 +17,39 @@ void CameraUpdate(Object*WzgledemKtoregoCamera, Map* mapa,sf::View* Cam,sf::Rend
 int main()
 {
     srand(time(NULL));
-    //@@@@@@@@@@@@@@@@@@@//
-    //     T E S T Y     //
-    //@@@@@@@@@@@@@@@@@@@//
 
+    Graphic_Engine Graphic;
 
-    //@@@@@@@@@@@@@@@@@@@//
-    //     T E S T Y     //
-    //@@@@@@@@@@@@@@@@@@@//
-
-    /** TESTOWANIE RAFAL **/
-
-
+  //  ParticleSystem(1000,sf::Vector2f(50,50), sf::Color::Red,sf::Color::Red);
 
     Unit*postac = new Unit(sf::Vector2f(400,100),30);
 
 
-
+    //MAPA
     Map*testowa_mapa = new Map;
     testowa_mapa->LoadMapFromFile("mapa50x50.csv");
     testowa_mapa->DisplayMapOfCollisions();
     testowa_mapa->CreateMapFromArray();
 
 
-    //cout << testowa_mapa->MapSize.x  << "   " << testowa_mapa->MapSize.y << endl;
-    /** TESTOWANIE RAFAL **/
-
-
-    sf::RenderWindow GameWindow( sf::VideoMode(ScreenWidth,ScreenHeight), "Game" ,sf::Style::Default);
-    sf::View Camera = GameWindow.getDefaultView();
-    sf::Clock clock;
+    sf::RenderWindow* GameWindow = Graphic.GetWindow();
+    sf::View Camera = GameWindow->getDefaultView();
+    sf::Clock FrameClock;
     sf::Time TimePerFrame = sf::seconds(1/FPS);
+    Graphic.ParticlesDraw();
+    GameWindow->setKeyRepeatEnabled(true);
 
-    GameWindow.setKeyRepeatEnabled(true);
 
-
-    /** %%%%%%%%%%%%%%%%% GAME LOOP  %%%%%%%%%%%%%%%%% **/
-    while( GameWindow.isOpen() )
+    //%%%%%%%%%%%%%%%%% GAME LOOP  %%%%%%%%%%%%%%%%%
+    while( GameWindow->isOpen() )
     {
         sf::Event event;
-        while( GameWindow.pollEvent( event ) )
+        while( GameWindow->pollEvent( event ) )
         {
             switch(event.type)
             {
             case sf::Event::Closed:
-                GameWindow.close();
+                GameWindow->close();
                 break;
             }
         }
@@ -75,17 +63,17 @@ int main()
 		if(sf::Keyboard::isKeyPressed( sf::Keyboard::Right ))
 			postac->SetRotation(postac->GetRotation() + sf::Vector2f(1,0));
 
-        if(clock.getElapsedTime()>= TimePerFrame)
+        if(FrameClock.getElapsedTime()>= TimePerFrame)
         {
-            GameWindow.clear();
+            GameWindow->clear();
             postac->MovePLS();
 
-            CameraUpdate(postac,testowa_mapa,&Camera,&GameWindow);
-            GameWindow.draw(*testowa_mapa);
-            GameWindow.draw(*postac);
+            CameraUpdate(postac,testowa_mapa,&Camera,GameWindow);
+            GameWindow->draw(*testowa_mapa);
+            GameWindow->draw(*postac);
 
-            GameWindow.display();
-            clock.restart();
+            GameWindow->display();
+            FrameClock.restart();
         }
         postac->SetRotation(sf::Vector2f(0,0));
     }

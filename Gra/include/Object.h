@@ -3,8 +3,8 @@
 #include <math.h>
 #include <vector>
 #include <iostream>
+#include "Graphic_Engine.h"
 
-using namespace std;
 
 const float Block_x = 10; //JESLI Block_x != Block_y nalezy zmienic kolizje circlepoint
 const float Block_y = 10;
