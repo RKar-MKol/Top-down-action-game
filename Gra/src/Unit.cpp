@@ -20,12 +20,19 @@ Unit::Unit(sf::Vector2f Position,float radius) : Object(Position,radius)
 
     //ZMIANA POLOZENIA
 	Velocity = Rotation*MovementSpeed;
-	Position+=Velocity;
+	Position.x+=Velocity.x;
 
     //JESLI KOLIZJA TO WRACAMY
     if(CheckForCollisions())
     {
-        Position = start;
+        Position.x = start.x;
+    }
+    Position.y+=Velocity.y;
+
+    //JESLI KOLIZJA TO WRACAMY
+    if(CheckForCollisions())
+    {
+        Position.y = start.y;
     }
     //USTAWIANIE POZYCJI PROSTOKATA POMOCNICZEGO
     rect.setPosition(Position);

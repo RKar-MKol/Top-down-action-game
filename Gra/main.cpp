@@ -36,8 +36,8 @@ int main()
     sf::View Camera = GameWindow->getDefaultView();
     sf::Clock FrameClock;
     sf::Time TimePerFrame = sf::seconds(1/FPS);
-    Graphic.ParticlesDraw();
     GameWindow->setKeyRepeatEnabled(true);
+    Graphic.CreateParticleSystemPredefined(0);
 
 
     //%%%%%%%%%%%%%%%%% GAME LOOP  %%%%%%%%%%%%%%%%%
@@ -72,7 +72,10 @@ int main()
             GameWindow->draw(*testowa_mapa);
             GameWindow->draw(*postac);
 
+            Graphic.ParticlesDraw();
             GameWindow->display();
+
+
             FrameClock.restart();
         }
         postac->SetRotation(sf::Vector2f(0,0));

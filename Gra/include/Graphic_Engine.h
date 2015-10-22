@@ -4,12 +4,12 @@
 #include <ctime>
 #include <cstdlib>
 #include <iostream>
+#include <algorithm>
 
 #define ScreenHeight 640
 #define ScreenWidth 800
 
 using namespace std;
-
 
 
 class Effect : public sf::Drawable, public sf::Transformable
@@ -28,42 +28,27 @@ class ParticleSystem : public sf::Drawable, public sf::Transformable
         sf::Time until_ready;
         bool launched;
     };
-    std::vector<Particle> m_particles;
+    vector<Particle> m_particles;
     sf::VertexArray m_vertices;
     sf::Time m_lifetime;
+    sf::Time m_lifebegin;
     sf::Vector2f m_emitter;
     bool ToDelete;
+    sf::RenderStates tekstura;
 
     //Konstruktory
-    ParticleSystem();
+    ParticleSystem() {}
     ParticleSystem(unsigned int count, sf::Vector2f emitter, sf::Color MINcolor,
                    sf::Color MAXcolor, sf::Time lifetime = sf::seconds(3));
     ParticleSystem(ParticleSystem& Part);
+    void operator=(const ParticleSystem& Part);
 
 
-
-
-    //Inne metody
-    void ChangeEmitter(sf::Vector2f emitter) { m_emitter = emitter; }
-public:
-
-
-
-    void launchParticle(std::size_t index);
-
-    //przyda sie operator= albo konstruktor kopiujacy, bedziemy mieli predefiniowane ParticleSystemy
-    // takie jak Particle_Blood itp. i przy wywolaniu krwawienia, tworzymy nowy particlesystem.
-
-    //Metody publiczne
-    void setEmitter(sf::Vector2f position)
-        {m_emitter = position;}
+    //Metody
+    void SetEmitter(sf::Vector2f emitter) { m_emitter = emitter; }
+    void launchParticle(size_t index);
     void update(sf::Time elapsed);
-
-private:
-    //Metody prywatne
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
-
-
 
 };
 
@@ -80,13 +65,12 @@ public:
 ////////////////////////////////////////////////////////  PARTICLE  ///////////////////////////////////////////
 private:
     vector<ParticleSystem*> AllParticleSystems;
-    vector<sf::Time> ParticleSystemTimes;
-
-    vector<ParticleSystem*> PredefinedParticleSystems;
+    vector<ParticleSystem*> PredefinedParticleSystems; //zmienic z wektora na mape z enumem
 public:
     void ParticlesDraw();
-    ParticleSystem* CreateParticleSystemPredefined(unsigned int number);
-    ParticleSystem* CreateParticleSystemNew(); //TRZEBA DODAC PARAMETRY
+    void CreateParticleSystemPredefined(unsigned int number);
+    void CreateParticleSystemNew(); //TRZEBA DODAC PARAMETRY
     //Tekstury
+    sf::Texture teksturapls;
 };
 
